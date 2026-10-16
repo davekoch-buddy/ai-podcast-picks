@@ -204,6 +204,47 @@ function updateTabLabel() {
   const n = getSaved().length;
   document.getElementById('tab-saved').textContent = n ? 'Saved (' + n + ')' : 'Saved';
 }
+
+const PROG_KEY = 'progress.v1';
+const LAST_KEY = 'lastplay.v1';
+function getProgressMap() { try { return JSON.parse(localStorage.getItem(PROG_KEY)) || {}; } catch (e) { return {}; } }
+function getProgress(ep) { if (!ep || !ep.audio) return null; return getProgressMap()[ep.audio] || null; }
+function saveLast() {
+  if (!current || !current.ep) return;
+  const p = getProgress(current.ep);
+  try { localStorage.setItem(LAST_KEY, JSON.stringify({ ep: current.ep, day: current.day || '', t: p ? p.t : 0, d: p ? p.d : 0 })); } catch (e) {}
+}
+function saveProgress() {
+  if (!current || !current.ep) return;
+  if (audio.duration) {
+    const t = audio.currentTime, m = getProgressMap();
+    if (t > 5 && audio.duration - t > 15) m[current.ep.audio] = { t: t, d: audio.duration, u: Date.now() };
+    else delete m[current.ep.audio];
+    try { localStorage.setItem(PROG_KEY, JSON.stringify(m)); } catch (e) {}
+  }
+  saveLast();
+  refreshResumeLabels();
+}
+function refreshResumeLabels() {
+  document.querySelectorAll('.card').forEach(c => {
+    if (!c._ep) return;
+    const np = c.querySelector('.notplaying');
+    if (!np) return;
+    const p = getProgress(c._ep);
+    np.textContent = (p && p.t > 5) ? 'Resume at ' + fmt(p.t) : 'Tap to play';
+  });
+}
+function updateSeekUI(t, d) {
+  const pct = d ? (t / d) * 1000 : 0;
+  if (current && current.card) {
+    const s = current.card.querySelector('.seek'); if (s) s.value = pct;
+    const tc = current.card.querySelector('.t-cur'); if (tc) tc.textContent = fmt(t);
+    const td = current.card.querySelector('.t-dur'); if (td) td.textContent = fmt(d || 0);
+  }
+  document.getElementById('mini-seek').value = pct;
+  document.getElementById('mini-cur').textContent = fmt(t);
+  document.getElementById('mini-dur').textContent = fmt(d || 0);
+}
 function renderSaved() {
   const wrap = document.getElementById('saved-list');
   wrap.innerHTML = '';
@@ -257,21 +298,29 @@ function vote(ep, day, card, rating) {
 }
 
 function playPause(ep, card) {
-  const btn = card.querySelector('.play');
+  const btn = card ? card.querySelector('.play') : null;
   if (current && current.ep === ep) {
     if (audio.paused) audio.play(); else audio.pause();
     return;
   }
   if (current) {
-    current.card.classList.remove('active');
-    current.btn.textContent = '▶';
+    saveProgress();
+    if (current.card) current.card.classList.remove('active');
+    if (current.btn) current.btn.textContent = '▶';
   }
-  current = { ep, card, btn };
-  card.classList.add('active');
+  current = { ep: ep, card: card || null, btn: btn, day: card ? (card._day || '') : '' };
+  if (card) card.classList.add('active');
   audio.src = ep.audio;
   audio.playbackRate = speeds[speedIdx];
+  const saved = getProgress(ep);
+  if (saved && saved.t > 5) {
+    const seekTo = saved.t, forAudio = ep.audio;
+    audio.addEventListener('loadedmetadata', function onMeta() {
+      if (current && current.ep && current.ep.audio === forAudio) { try { audio.currentTime = seekTo; } catch (e) {} }
+    }, { once: true });
+  }
   audio.play().catch(() => {});
-  btn.textContent = '⏸';
+  if (btn) btn.textContent = '⏸';
   document.getElementById('mini-show').textContent = ep.show;
   document.getElementById('mini-title').textContent = ep.title;
   mini.classList.add('show');
@@ -279,23 +328,70 @@ function playPause(ep, card) {
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: ep.show, album: 'Daily AI Podcast Picks' });
   }
-  card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  saveLast();
+  if (card) card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
-audio.addEventListener('play', () => { if (current) { current.btn.textContent = '⏸'; miniBtn.textContent = '⏸'; } });
-audio.addEventListener('pause', () => { if (current) { current.btn.textContent = '▶'; miniBtn.textContent = '▶'; } });
+function restoreLast() {
+  let last = null;
+  try { last = JSON.parse(localStorage.getItem(LAST_KEY)); } catch (e) {}
+  if (!last || !last.ep || !last.ep.audio || current) return;
+  const p = getProgress(last.ep);
+  if (!p || p.t <= 5) return;
+  const ep = last.ep;
+  let card = null;
+  document.querySelectorAll('.card').forEach(c => { if (!card && c._ep && c._ep.audio === ep.audio) card = c; });
+  current = { ep: ep, card: card, btn: card ? card.querySelector('.play') : null, day: last.day || '' };
+  if (card) {
+    card.classList.add('active');
+    const np = card.querySelector('.notplaying');
+    if (np) np.style.display = 'none';
+  }
+  audio.src = ep.audio;
+  audio.playbackRate = speeds[speedIdx];
+  const seekTo = p.t, dur = p.d || 0, forAudio = ep.audio;
+  audio.addEventListener('loadedmetadata', function onMeta() {
+    if (current && current.ep && current.ep.audio === forAudio) {
+      try { audio.currentTime = seekTo; } catch (e) {}
+      updateSeekUI(seekTo, audio.duration || dur);
+    }
+  }, { once: true });
+  document.getElementById('mini-show').textContent = ep.show;
+  document.getElementById('mini-title').textContent = ep.title;
+  mini.classList.add('show');
+  document.body.classList.add('playing');
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: ep.show, album: 'Daily AI Podcast Picks' });
+  }
+  updateSeekUI(seekTo, dur);
+}
+
+audio.addEventListener('play', () => { if (current && current.btn) current.btn.textContent = '⏸'; if (current) miniBtn.textContent = '⏸'; });
+audio.addEventListener('pause', () => {
+  if (current && current.btn) current.btn.textContent = '▶';
+  if (current) miniBtn.textContent = '▶';
+  saveProgress();
+});
+let lastSave = 0;
 audio.addEventListener('timeupdate', () => {
   if (!current) return;
-  const c = current.card;
-  const pct = audio.duration ? (audio.currentTime / audio.duration) * 1000 : 0;
-  c.querySelector('.seek').value = pct;
-  c.querySelector('.t-cur').textContent = fmt(audio.currentTime);
-  c.querySelector('.t-dur').textContent = fmt(audio.duration || 0);
-  document.getElementById('mini-seek').value = pct;
-  document.getElementById('mini-cur').textContent = fmt(audio.currentTime);
-  document.getElementById('mini-dur').textContent = fmt(audio.duration || 0);
+  updateSeekUI(audio.currentTime, audio.duration || 0);
+  const now = Date.now();
+  if (now - lastSave > 4000) { lastSave = now; saveProgress(); }
 });
-audio.addEventListener('ended', () => { if (current) current.btn.textContent = '▶'; miniBtn.textContent = '▶'; });
+audio.addEventListener('ended', () => {
+  if (current) {
+    const m = getProgressMap();
+    delete m[current.ep.audio];
+    try { localStorage.setItem(PROG_KEY, JSON.stringify(m)); } catch (e) {}
+    saveLast();
+    refreshResumeLabels();
+    if (current.btn) current.btn.textContent = '▶';
+  }
+  miniBtn.textContent = '▶';
+});
+window.addEventListener('pagehide', saveProgress);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') saveProgress(); });
 miniBtn.addEventListener('click', () => { if (current) playPause(current.ep, current.card); });
 document.getElementById('mini-back').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
 document.getElementById('mini-fwd').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
@@ -317,6 +413,7 @@ function buildCard(ep, day) {
   const card = document.createElement('article');
   card.className = 'card';
   card._ep = ep;
+  card._day = day;
   card.innerHTML =
     '<div class="kicker"><span class="show"></span><span class="meta"></span></div>' +
     '<h2></h2><p class="about"></p>' +
@@ -382,6 +479,8 @@ function buildCard(ep, day) {
   const saved = localStorage.getItem(storeKey(ep, day));
   if (saved === 'up') card.querySelector('.v-up').classList.add('sel-up');
   if (saved === 'down') { card.querySelector('.v-down').classList.add('sel-down'); card.querySelector('.notebox').classList.add('open'); }
+  const prog = getProgress(ep);
+  if (prog && prog.t > 5) card.querySelector('.notplaying').textContent = 'Resume at ' + fmt(prog.t);
   return card;
 }
 
@@ -405,9 +504,12 @@ fetch('picks.json', { cache: 'no-store' })
     document.getElementById('picks-date').textContent = data.date;
     data.episodes.forEach(ep => listEl.appendChild(buildCard(ep, data.date)));
     refreshSaveButtons();
+    refreshResumeLabels();
+    restoreLast();
   })
   .catch(() => {
     listEl.innerHTML = '<div class="err">Could not load today\u2019s picks. Check your connection and reload.</div>';
+    restoreLast();
   });
 </script>
 </body>
