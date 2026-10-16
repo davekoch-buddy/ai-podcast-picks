@@ -77,6 +77,18 @@
   .vote:active { transform: scale(0.94); }
   .vote.sel-up { border-color: var(--up); background: rgba(62,207,111,0.16); }
   .vote.sel-down { border-color: var(--down); background: rgba(239,83,80,0.14); }
+  .save {
+    height: 46px; border-radius: 999px; border: 1px solid var(--line);
+    background: #20242e; color: var(--text); font-size: 14px; cursor: pointer; padding: 0 13px;
+  }
+  .save.on { border-color: var(--amber); color: var(--amber); }
+  .tabs { display: flex; gap: 8px; padding: 12px 14px 2px; }
+  .tab {
+    flex: 1; padding: 11px; border-radius: 12px; border: 1px solid var(--line);
+    background: var(--card); color: var(--dim); font-size: 15px; font-weight: 600; cursor: pointer;
+  }
+  .tab.on { color: #14161c; background: var(--amber); border-color: var(--amber); }
+  .empty { color: var(--dim); padding: 26px 18px; font-size: 15px; line-height: 1.5; }
   .notebox { display: none; margin-top: 12px; }
   .notebox.open { display: block; }
   .notebox textarea {
@@ -113,7 +125,12 @@
   <div class="date" id="picks-date">Loading…</div>
   <div class="sub">Five current episodes on recent AI developments, picked fresh every morning. Tap play to listen right here — and rate each pick. Your thumbs steer tomorrow's list.</div>
 </header>
+<div class="tabs">
+  <button class="tab on" id="tab-today">Today's picks</button>
+  <button class="tab" id="tab-saved">Saved</button>
+</div>
 <main id="list"></main>
+<main id="saved-list" style="display:none"></main>
 <div id="mini">
   <button id="mini-btn" aria-label="Play or pause">▶</button>
   <div class="mtitle"><span class="mshow" id="mini-show"></span> · <span id="mini-title"></span></div>
@@ -136,6 +153,45 @@ function fmt(t) {
   return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(s).padStart(2, '0');
 }
 function storeKey(ep, day) { return 'vote|' + day + '|' + ep.show + '|' + ep.title; }
+
+const SAVED_KEY = 'saved.v1';
+function getSaved() { try { return JSON.parse(localStorage.getItem(SAVED_KEY)) || []; } catch (e) { return []; } }
+function setSaved(arr) { localStorage.setItem(SAVED_KEY, JSON.stringify(arr)); }
+function isSaved(ep) { return getSaved().some(s => s.audio === ep.audio); }
+function toggleSave(ep, day) {
+  let arr = getSaved();
+  if (arr.some(s => s.audio === ep.audio)) arr = arr.filter(s => s.audio !== ep.audio);
+  else arr.unshift(Object.assign({}, ep, { savedFrom: day }));
+  setSaved(arr);
+  refreshSaveButtons();
+  renderSaved();
+  updateTabLabel();
+}
+function refreshSaveButtons() {
+  document.querySelectorAll('.card').forEach(c => {
+    if (!c._ep) return;
+    const b = c.querySelector('.save');
+    if (!b) return;
+    const on = isSaved(c._ep);
+    b.classList.toggle('on', on);
+    b.textContent = on ? '✓ Saved' : '🔖 Save';
+  });
+}
+function updateTabLabel() {
+  const n = getSaved().length;
+  document.getElementById('tab-saved').textContent = n ? 'Saved (' + n + ')' : 'Saved';
+}
+function renderSaved() {
+  const wrap = document.getElementById('saved-list');
+  wrap.innerHTML = '';
+  const arr = getSaved();
+  if (!arr.length) {
+    wrap.innerHTML = '<div class="empty">Nothing saved yet. Tap <b>🔖 Save</b> on any episode and it will wait here — saved episodes stay even after the daily picks refresh.</div>';
+    return;
+  }
+  arr.forEach(ep => wrap.appendChild(buildCard(ep, ep.savedFrom || '')));
+  refreshSaveButtons();
+}
 
 function sendFeedback(ep, day, rating, note) {
   const payload = {
@@ -214,13 +270,14 @@ audio.addEventListener('timeupdate', () => {
 audio.addEventListener('ended', () => { if (current) current.btn.textContent = '▶'; miniBtn.textContent = '▶'; });
 miniBtn.addEventListener('click', () => { if (current) playPause(current.ep, current.card); });
 if ('mediaSession' in navigator) {
-  navigator.mediaSession.setActionHandler('seekbackward', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  navigator.mediaSession.setActionHandler('seekbackward', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
   navigator.mediaSession.setActionHandler('seekforward', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
 }
 
 function buildCard(ep, day) {
   const card = document.createElement('article');
   card.className = 'card';
+  card._ep = ep;
   card.innerHTML =
     '<div class="kicker"><span class="show"></span><span class="meta"></span></div>' +
     '<h2></h2><p class="about"></p>' +
@@ -231,7 +288,7 @@ function buildCard(ep, day) {
         '<input type="range" class="seek" min="0" max="1000" value="0">' +
         '<div class="times"><span class="t-cur">0:00</span><span class="t-dur">0:00</span></div>' +
         '<div class="skiprow">' +
-          '<button class="chip back">−15s</button>' +
+          '<button class="chip back">−30s</button>' +
           '<button class="chip fwd">+30s</button>' +
           '<button class="chip spd">1×</button>' +
           '<a class="ep-link" target="_blank" rel="noopener">Episode page ↗</a>' +
@@ -239,6 +296,7 @@ function buildCard(ep, day) {
       '</div>' +
       '<span class="notplaying">Tap to play</span>' +
       '<div class="votes">' +
+        '<button class="save" aria-label="Save for later">🔖 Save</button>' +
         '<button class="vote v-up" aria-label="Thumbs up">👍</button>' +
         '<button class="vote v-down" aria-label="Thumbs down">👎</button>' +
       '</div>' +
@@ -262,7 +320,8 @@ function buildCard(ep, day) {
   card.querySelector('.seek').addEventListener('input', e => {
     if (audio.duration) audio.currentTime = (e.target.value / 1000) * audio.duration;
   });
-  card.querySelector('.back').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  card.querySelector('.back').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
+  card.querySelector('.save').addEventListener('click', () => toggleSave(ep, day));
   card.querySelector('.fwd').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
   card.querySelector('.spd').addEventListener('click', e => {
     speedIdx = (speedIdx + 1) % speeds.length;
@@ -286,11 +345,26 @@ function buildCard(ep, day) {
   return card;
 }
 
+const savedEl = document.getElementById('saved-list');
+document.getElementById('tab-today').addEventListener('click', () => {
+  document.getElementById('tab-today').classList.add('on');
+  document.getElementById('tab-saved').classList.remove('on');
+  listEl.style.display = ''; savedEl.style.display = 'none';
+});
+document.getElementById('tab-saved').addEventListener('click', () => {
+  document.getElementById('tab-saved').classList.add('on');
+  document.getElementById('tab-today').classList.remove('on');
+  listEl.style.display = 'none'; savedEl.style.display = '';
+});
+renderSaved();
+updateTabLabel();
+
 fetch('picks.json', { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
     document.getElementById('picks-date').textContent = data.date;
     data.episodes.forEach(ep => listEl.appendChild(buildCard(ep, data.date)));
+    refreshSaveButtons();
   })
   .catch(() => {
     listEl.innerHTML = '<div class="err">Could not load today\u2019s picks. Check your connection and reload.</div>';
