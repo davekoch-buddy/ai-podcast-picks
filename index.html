@@ -103,18 +103,34 @@
   .status { font-size: 13px; color: var(--dim); margin-top: 9px; min-height: 16px; }
   .status.ok { color: var(--up); }
   .ep-link { color: var(--dim); font-size: 13px; text-decoration: none; }
+  body.playing { padding-bottom: 216px; }
   #mini {
-    position: fixed; left: 10px; right: 10px; bottom: calc(env(safe-area-inset-bottom) + 10px);
-    background: #232a37; border: 1px solid var(--amber-dim); border-radius: 16px;
-    padding: 10px 14px; display: none; align-items: center; gap: 12px; z-index: 20;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    position: fixed; left: 0; right: 0; bottom: 0;
+    background: #1b2130; border-top: 1px solid var(--amber-dim);
+    padding: 12px 16px calc(env(safe-area-inset-bottom) + 14px);
+    display: none; flex-direction: column; gap: 9px; z-index: 20;
+    box-shadow: 0 -10px 30px rgba(0,0,0,0.55);
   }
   #mini.show { display: flex; }
-  #mini .mtitle { flex: 1; min-width: 0; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #mini .mtitle { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #mini .mshow { color: var(--amber); font-weight: 700; }
-  #mini button {
-    flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%; border: none;
-    background: var(--amber); color: #14161c; font-size: 18px; cursor: pointer;
+  #mini input[type=range] { width: 100%; accent-color: var(--amber); height: 28px; }
+  #mini .mtimes { display: flex; justify-content: space-between; color: var(--dim); font-size: 12.5px; font-variant-numeric: tabular-nums; margin-top: -6px; }
+  #mini .mrow { display: flex; align-items: center; justify-content: center; gap: 22px; }
+  #mini .mbtn {
+    flex: 0 0 auto; width: 66px; height: 66px; border-radius: 50%;
+    border: 1px solid var(--line); background: #262d3b; color: var(--text);
+    font-size: 17px; font-weight: 700; cursor: pointer;
+  }
+  #mini .mbtn:active { background: #303949; }
+  #mini .mbtn.main {
+    width: 84px; height: 84px; border: none;
+    background: var(--amber); color: #14161c; font-size: 32px;
+  }
+  #mini .mbtn.main:active { background: var(--amber); transform: scale(0.97); }
+  #mini .mspd {
+    flex: 0 0 auto; background: #262d3b; color: var(--text); border: 1px solid var(--line);
+    border-radius: 999px; padding: 10px 14px; font-size: 14px; cursor: pointer;
   }
   .err { color: var(--down); padding: 20px 18px; font-size: 15px; line-height: 1.5; }
 </style>
@@ -132,8 +148,15 @@
 <main id="list"></main>
 <main id="saved-list" style="display:none"></main>
 <div id="mini">
-  <button id="mini-btn" aria-label="Play or pause">▶</button>
   <div class="mtitle"><span class="mshow" id="mini-show"></span> · <span id="mini-title"></span></div>
+  <input type="range" id="mini-seek" min="0" max="1000" value="0">
+  <div class="mtimes"><span id="mini-cur">0:00</span><span id="mini-dur">0:00</span></div>
+  <div class="mrow">
+    <button class="mbtn" id="mini-back" aria-label="Back 30 seconds">−30</button>
+    <button class="mbtn main" id="mini-btn" aria-label="Play or pause">▶</button>
+    <button class="mbtn" id="mini-fwd" aria-label="Forward 30 seconds">+30</button>
+    <button class="mspd" id="mini-spd">1×</button>
+  </div>
 </div>
 <audio id="player" preload="none"></audio>
 <script>
@@ -252,6 +275,7 @@ function playPause(ep, card) {
   document.getElementById('mini-show').textContent = ep.show;
   document.getElementById('mini-title').textContent = ep.title;
   mini.classList.add('show');
+  document.body.classList.add('playing');
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: ep.show, album: 'Daily AI Podcast Picks' });
   }
@@ -263,12 +287,27 @@ audio.addEventListener('pause', () => { if (current) { current.btn.textContent =
 audio.addEventListener('timeupdate', () => {
   if (!current) return;
   const c = current.card;
-  c.querySelector('.seek').value = audio.duration ? (audio.currentTime / audio.duration) * 1000 : 0;
+  const pct = audio.duration ? (audio.currentTime / audio.duration) * 1000 : 0;
+  c.querySelector('.seek').value = pct;
   c.querySelector('.t-cur').textContent = fmt(audio.currentTime);
   c.querySelector('.t-dur').textContent = fmt(audio.duration || 0);
+  document.getElementById('mini-seek').value = pct;
+  document.getElementById('mini-cur').textContent = fmt(audio.currentTime);
+  document.getElementById('mini-dur').textContent = fmt(audio.duration || 0);
 });
 audio.addEventListener('ended', () => { if (current) current.btn.textContent = '▶'; miniBtn.textContent = '▶'; });
 miniBtn.addEventListener('click', () => { if (current) playPause(current.ep, current.card); });
+document.getElementById('mini-back').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
+document.getElementById('mini-fwd').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
+document.getElementById('mini-seek').addEventListener('input', e => {
+  if (audio.duration) audio.currentTime = (e.target.value / 1000) * audio.duration;
+});
+document.getElementById('mini-spd').addEventListener('click', () => {
+  speedIdx = (speedIdx + 1) % speeds.length;
+  audio.playbackRate = speeds[speedIdx];
+  document.querySelectorAll('.spd').forEach(b => b.textContent = speeds[speedIdx] + '×');
+  document.getElementById('mini-spd').textContent = speeds[speedIdx] + '×';
+});
 if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('seekbackward', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
   navigator.mediaSession.setActionHandler('seekforward', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
@@ -327,6 +366,7 @@ function buildCard(ep, day) {
     speedIdx = (speedIdx + 1) % speeds.length;
     audio.playbackRate = speeds[speedIdx];
     document.querySelectorAll('.spd').forEach(b => b.textContent = speeds[speedIdx] + '×');
+    document.getElementById('mini-spd').textContent = speeds[speedIdx] + '×';
   });
   card.querySelector('.v-up').addEventListener('click', () => vote(ep, day, card, 'up'));
   card.querySelector('.v-down').addEventListener('click', () => vote(ep, day, card, 'down'));
