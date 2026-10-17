@@ -17,28 +17,29 @@
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  .wrap{max-width:640px;margin:0 auto;padding:14px 14px 28px;min-height:100vh;display:flex;flex-direction:column;}
-  header{text-align:center;padding:6px 0 0;}
-  .logo{width:108px;height:108px;border-radius:26px;box-shadow:0 8px 24px rgba(0,0,0,.45);}
-  h1{margin:6px 0 0;font-size:38px;letter-spacing:1px;}
-  .sub{color:var(--dim);margin:4px 0 0;font-size:16px;}
-  .stage{background:var(--panel);border-radius:20px;padding:16px 14px;margin:14px 0;text-align:center;
-    box-shadow:0 6px 24px rgba(0,0,0,.35);min-height:96px;}
-  #nowPlaying{font-size:23px;font-weight:800;line-height:1.25;min-height:30px;}
-  #status{color:var(--dim);font-size:15px;min-height:20px;margin-top:4px;}
-  .bigbtns{flex:1;display:flex;flex-direction:column;gap:14px;}
+  .wrap{max-width:640px;margin:0 auto;padding:10px 12px 14px;min-height:100vh;min-height:100dvh;
+    display:flex;flex-direction:column;}
+  header{text-align:center;padding:2px 0 0;}
+  .logo{width:72px;height:72px;border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.45);}
+  h1{margin:2px 0 0;font-size:30px;letter-spacing:1px;}
+  .sub{color:var(--dim);margin:2px 0 0;font-size:14px;}
+  .stage{background:var(--panel);border-radius:18px;padding:10px 12px;margin:10px 0;text-align:center;
+    box-shadow:0 6px 24px rgba(0,0,0,.35);}
+  #nowPlaying{font-size:20px;font-weight:800;line-height:1.25;min-height:25px;}
+  #status{color:var(--dim);font-size:13px;min-height:17px;margin-top:2px;}
+  .bigbtns{flex:1;display:flex;flex-direction:column;gap:12px;}
   button{font-family:inherit;border:none;border-radius:22px;cursor:pointer;color:var(--ink);}
-  .big{flex:1;width:100%;min-height:180px;font-size:64px;font-weight:900;letter-spacing:2px;
+  .big{flex:1;width:100%;font-size:62px;font-weight:900;letter-spacing:2px;
     display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;}
-  .big .hintline{font-size:17px;font-weight:600;letter-spacing:.3px;opacity:.85;}
+  .big .hintline{font-size:16px;font-weight:600;letter-spacing:.3px;opacity:.85;}
   .big:active{transform:scale(.985);}
   #boyBtn{background:linear-gradient(180deg,var(--boy1),var(--boy2));color:#04122e;
     box-shadow:0 10px 26px rgba(37,99,235,.4);}
   #girlBtn{background:linear-gradient(180deg,var(--girl1),var(--girl2));color:#2e0416;
     box-shadow:0 10px 26px rgba(219,39,119,.4);}
-  #stopBtn{width:100%;padding:16px;font-size:18px;font-weight:700;background:#1f2650;margin-top:14px;}
+  #stopBtn{width:100%;padding:13px;font-size:16px;font-weight:700;background:#1f2650;margin-top:12px;}
   #stopBtn:active{transform:scale(.98);}
-  .mini{font-size:13px;color:var(--dim);text-align:center;margin-top:12px;line-height:1.5;}
+  .mini{font-size:12px;color:var(--dim);text-align:center;margin-top:8px;line-height:1.45;}
 </style>
 </head>
 <body>
@@ -60,55 +61,56 @@
   </div>
 
   <button id="stopBtn">⏹ Stop</button>
-  <p class="mini">Connect the Bluetooth speaker, turn the phone volume up, and flip the silent switch off.<br>Each song plays its big chorus — about 15 seconds.</p>
+  <p class="mini">Bluetooth speaker on, volume up, silent switch off. Each tap plays a 15-second chorus.</p>
 </div>
 
 <script>
 "use strict";
-// ---- Song setup: 15 per side; start = seconds into the preview where the chorus begins (transcription-verified) ----
+// ---- Songs: every clip is pre-trimmed to its chorus and hosted with the app (src starts at 0) ----
 const SNIPPET_SECONDS = 15;
 const SONGS = {
   boy: [
-        { t: "Dynamite", a: "Taio Cruz", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/9d/51/c69d51c6-05ca-a0e4-4c43-c9743257048b/mzaf_17316422719838636186.plus.aac.p.m4a" },
-    { t: "We Will Rock You", a: "Queen", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/a9/f3/0aa9f3af-4672-fb3b-42d8-6d56a9a4c69b/mzaf_16030082968131796908.plus.aac.p.m4a" },
-    { t: "You're Welcome", a: "Dwayne Johnson \u00b7 Moana", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/37/c9/ec37c95f-32c1-a680-1d56-3df7086faed4/mzaf_3480676039718271086.plus.aac.p.m4a" },
-    { t: "Radioactive", a: "Imagine Dragons", s: 13, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/70/88/777088e9-60a1-c459-bfa5-6e66f2fd2695/mzaf_7685408661765681881.plus.aac.p.m4a" },
-    { t: "High Hopes", a: "Panic! At The Disco", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/25/54/092554d1-58a6-13c4-55b5-304fff054ecb/mzaf_4446773544604155780.plus.aac.p.m4a" },
-    { t: "Hall of Fame", a: "The Script ft. will.i.am", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/f3/39/94f339db-4bd1-42ad-1ae7-ba2915048ca5/mzaf_15752622271492140790.plus.aac.p.m4a" },
-    { t: "Soda Pop", a: "Saja Boys \u00b7 KPop Demon Hunters", s: 14.5, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/34/6c/9a346c69-778a-cb6b-9126-d85eda0fa5b3/mzaf_6544151460501924704.plus.aac.p.m4a" },
-    { t: "All Star", a: "Smash Mouth", s: 14.8, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/03/ef/b003ef4c-1a22-6b15-e851-fb106ad96a3b/mzaf_3320656447657988367.plus.aac.p.m4a" },
-    { t: "Happy", a: "Pharrell Williams", s: 14.9, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/a0/19/eda019cf-2794-66d1-208d-2e2e74c26c3d/mzaf_16469762943852039623.plus.aac.p.m4a" },
-    { t: "Best Day of My Life", a: "American Authors", s: 0, src: "audio/best-day.mp3" },
-    { t: "On Top of the World", a: "Imagine Dragons", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/89/7b/cf897bba-9f5a-0621-df08-b6d7c83bf654/mzaf_7096659419087440090.plus.aac.p.m4a" },
-    { t: "I'll Make a Man Out of You", a: "Donny Osmond \u00b7 Mulan", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/36/68/0f36686c-5e20-6fa3-86d8-0aa19a1a8025/mzaf_12152013571508836328.plus.aac.p.m4a" },
-    { t: "Waka Waka", a: "Shakira", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/88/e5/9888e55d-4daf-0e96-480b-a38259013586/mzaf_9048311608369053538.plus.aac.p.m4a" },
-    { t: "Something Just Like This", a: "The Chainsmokers & Coldplay", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/7f/96/647f9601-aa94-3599-6c73-0143510b8b92/mzaf_13538528720942742126.plus.aac.p.m4a" },
-    { t: "Seven Nation Army", a: "The White Stripes", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/2d/58/fe2d587f-6344-3fb3-43f7-d318a6253dcc/mzaf_16825320951570507954.plus.aac.p.m4a" }
+    { t: "Dynamite", a: "Taio Cruz", src: "clips/dynamite.m4a" },
+    { t: "We Will Rock You", a: "Queen", src: "clips/we-will-rock-you.m4a" },
+    { t: "You're Welcome", a: "Dwayne Johnson · Moana", src: "clips/youre-welcome.m4a" },
+    { t: "Radioactive", a: "Imagine Dragons", src: "clips/radioactive.m4a" },
+    { t: "High Hopes", a: "Panic! At The Disco", src: "clips/high-hopes.m4a" },
+    { t: "Hall of Fame", a: "The Script ft. will.i.am", src: "clips/hall-of-fame.m4a" },
+    { t: "Soda Pop", a: "Saja Boys · KPop Demon Hunters", src: "clips/soda-pop.m4a" },
+    { t: "All Star", a: "Smash Mouth", src: "clips/all-star.m4a" },
+    { t: "Happy", a: "Pharrell Williams", src: "clips/happy.m4a" },
+    { t: "Best Day of My Life", a: "American Authors", src: "clips/best-day.m4a" },
+    { t: "On Top of the World", a: "Imagine Dragons", src: "clips/on-top-of-the-world.m4a" },
+    { t: "I'll Make a Man Out of You", a: "Donny Osmond · Mulan", src: "clips/man-out-of-you.m4a" },
+    { t: "Waka Waka", a: "Shakira", src: "clips/waka-waka.m4a" },
+    { t: "Something Just Like This", a: "The Chainsmokers & Coldplay", src: "clips/something-just-like-this.m4a" },
+    { t: "Seven Nation Army", a: "The White Stripes", src: "clips/seven-nation-army.m4a" }
   ],
   girl: [
-        { t: "Golden", a: "HUNTR/X \u00b7 KPop Demon Hunters", s: 13.5, src: "audio/golden.mp3" },
-    { t: "Shake It Off", a: "Taylor Swift", s: 0, src: "audio/shake-it-off.mp3" },
-    { t: "Roar", a: "Katy Perry", s: 0, src: "audio/roar.mp3" },
-    { t: "We Don't Talk About Bruno", a: "Encanto Cast", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/0a/76/550a76f2-cf9c-3e07-8b9c-5c210e73af44/mzaf_13858819433882654714.plus.aac.p.m4a" },
-    { t: "Firework", a: "Katy Perry", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/27/3b/ab273b22-1eb1-dd49-5332-5ef70c35683b/mzaf_4912325324633099647.plus.aac.p.m4a" },
-    { t: "Try Everything", a: "Shakira \u00b7 Zootopia", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/c8/2d/28c82d58-fe60-4517-a0da-e322fe96e979/mzaf_16490713264143380765.plus.aac.p.m4a" },
-    { t: "Let It Go", a: "Idina Menzel \u00b7 Frozen", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/5f/36/435f3609-ddd5-bc10-3dbb-ddf5872b93ce/mzaf_9461789858996596537.plus.aac.p.m4a" },
-    { t: "How Far I'll Go", a: "Alessia Cara \u00b7 Moana", s: 12, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/34/cb/ed34cbfd-c6c3-8a4b-d8f6-cca88b7ee19b/mzaf_4732722950148884420.plus.aac.p.m4a" },
-    { t: "Unstoppable", a: "Sia", s: 13, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/dd/6a/bbdd6a92-b322-1c35-8dc7-8eb7d84f72b8/mzaf_14355345747730153074.plus.aac.p.m4a" },
-    { t: "Stronger", a: "Kelly Clarkson", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/47/97/f6479794-a7d8-dfa3-ecdb-cf680923f662/mzaf_17077084551344436556.plus.aac.p.m4a" },
-    { t: "Fight Song", a: "Rachel Platten", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/24/06/7c240614-6114-36e2-dcca-cad022234713/mzaf_13280580700522004774.plus.aac.p.m4a" },
-    { t: "This Is Me", a: "Keala Settle \u00b7 The Greatest Showman", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/46/5b/63465b42-35a9-8bb4-6e53-6b7cc90f2756/mzaf_15016442944298305141.plus.aac.p.m4a" },
-    { t: "Dance the Night", a: "Dua Lipa \u00b7 Barbie", s: 14.5, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/9f/56/9d9f566f-abf6-5f10-bcdb-09e14dcace42/mzaf_10277018989080903908.plus.aac.p.m4a" },
-    { t: "Can't Stop the Feeling!", a: "Justin Timberlake", s: 11.5, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/41/2d/86412d20-2f4d-39fc-221b-3f643d7c99c6/mzaf_9909715182585785919.plus.aac.p.m4a" },
-    { t: "Surface Pressure", a: "Jessica Darrow \u00b7 Encanto", s: 0, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/f6/4f/aaf64f86-db9a-ff3e-fff0-1dd936c5d0d0/mzaf_11597969219394211180.plus.aac.p.m4a" }
+    { t: "Golden", a: "HUNTR/X · KPop Demon Hunters", src: "clips/golden.m4a" },
+    { t: "Shake It Off", a: "Taylor Swift", src: "clips/shake-it-off.m4a" },
+    { t: "Roar", a: "Katy Perry", src: "clips/roar.m4a" },
+    { t: "We Don't Talk About Bruno", a: "Encanto Cast", src: "clips/bruno.m4a" },
+    { t: "Firework", a: "Katy Perry", src: "clips/firework.m4a" },
+    { t: "Try Everything", a: "Shakira · Zootopia", src: "clips/try-everything.m4a" },
+    { t: "Let It Go", a: "Idina Menzel · Frozen", src: "clips/let-it-go.m4a" },
+    { t: "How Far I'll Go", a: "Alessia Cara · Moana", src: "clips/how-far-ill-go.m4a" },
+    { t: "Unstoppable", a: "Sia", src: "clips/unstoppable.m4a" },
+    { t: "Stronger", a: "Kelly Clarkson", src: "clips/stronger.m4a" },
+    { t: "Fight Song", a: "Rachel Platten", src: "clips/fight-song.m4a" },
+    { t: "This Is Me", a: "Keala Settle · The Greatest Showman", src: "clips/this-is-me.m4a" },
+    { t: "Dance the Night", a: "Dua Lipa · Barbie", src: "clips/dance-the-night.m4a" },
+    { t: "Can't Stop the Feeling!", a: "Justin Timberlake", src: "clips/cant-stop-the-feeling.m4a" },
+    { t: "Surface Pressure", a: "Jessica Darrow · Encanto", src: "clips/surface-pressure.m4a" }
   ]
 };
 
 const $ = id => document.getElementById(id);
+const players = {};                 // src -> Audio
 const lastIdx = { boy: -1, girl: -1 };
+const nextIdx = { boy: -1, girl: -1 };   // pre-picked, preloaded song per side
 let seq = 0;
 let fadeTimer = null, endTimer = null;
-const players = {};
 
 function playerFor(song){
   if (!players[song.src]) {
@@ -119,10 +121,22 @@ function playerFor(song){
   }
   return players[song.src];
 }
-function warmCache(){
-  [...SONGS.boy, ...SONGS.girl].forEach(s => { try { playerFor(s).load(); } catch(e){} });
+
+// Pick the next song for a side and start it loading right away,
+// so a tap never waits on the network.
+function pickNext(side){
+  const n = SONGS[side].length;
+  let i;
+  do { i = Math.floor(Math.random() * n); } while (n > 1 && (i === lastIdx[side] || i === nextIdx[side]));
+  nextIdx[side] = i;
+  try { playerFor(SONGS[side][i]).load(); } catch(e){}
 }
-window.addEventListener("pointerdown", warmCache, { once:true });
+function prime(){
+  ["boy", "girl"].forEach(side => {
+    if (nextIdx[side] < 0) pickNext(side);
+    else { try { playerFor(SONGS[side][nextIdx[side]]).load(); } catch(e){} }
+  });
+}
 
 function stopAll(){
   Object.values(players).forEach(a => { try { a.pause(); } catch(e){} });
@@ -132,22 +146,20 @@ function stopAll(){
 function setStatus(t){ $("status").textContent = t; }
 
 function play(side){
-  warmCache();
   seq++;
   const mySeq = seq;
   stopAll();
-  const list = SONGS[side];
-  let idx;
-  do { idx = Math.floor(Math.random() * list.length); } while (list.length > 1 && idx === lastIdx[side]);
+  if (nextIdx[side] < 0) pickNext(side);
+  const idx = nextIdx[side];
   lastIdx[side] = idx;
-  const song = list[idx];
+  const song = SONGS[side][idx];
   const a = playerFor(song);
   a.volume = 1;
-  try { a.currentTime = song.s; } catch(e){}
   $("nowPlaying").textContent = "🎵 " + song.t;
   setStatus(song.a);
   const p = a.play();
   if (p && p.catch) p.catch(() => { setStatus("Tap again — the phone blocked the first play."); });
+  pickNext(side);   // roll the preload: the following song starts loading now
 
   const FADE = 0.9;
   endTimer = setTimeout(() => {
@@ -170,6 +182,11 @@ function play(side){
 $("boyBtn").onclick = () => play("boy");
 $("girlBtn").onclick = () => play("girl");
 $("stopBtn").onclick = () => { seq++; stopAll(); $("nowPlaying").textContent = "Who's next?"; setStatus("Stopped."); };
+
+// Pre-pick and preload one song per side as soon as the page opens,
+// and re-assert the loads on the first touch (mobile Safari loads more eagerly inside a gesture).
+prime();
+window.addEventListener("pointerdown", prime);
 
 // ---- Keep the screen awake during the game ----
 let wakeLock = null;
