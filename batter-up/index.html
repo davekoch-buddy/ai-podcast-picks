@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Batter Up! — Walk-Up Music</title>
+<style>
+  :root{
+    --bg:#0b1026; --panel:#171d3d; --panel2:#1f2650; --ink:#f5f7ff; --dim:#a7b0d8;
+    --accent:#ffb703; --accent2:#fb8500; --good:#3ddc84; --red:#ff5964;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:640px;margin:0 auto;padding:16px 16px 40px;}
+  header{text-align:center;padding:10px 0 2px;}
+  h1{margin:0;font-size:40px;letter-spacing:1px;}
+  h1 .ball{font-size:34px;}
+  .sub{color:var(--dim);margin:4px 0 0;font-size:16px;}
+  .stage{background:var(--panel);border-radius:20px;padding:20px 16px;margin:16px 0;text-align:center;
+    box-shadow:0 6px 24px rgba(0,0,0,.35);}
+  .stage .label{color:var(--dim);font-size:14px;text-transform:uppercase;letter-spacing:2px;}
+  #atBat{font-size:52px;font-weight:800;line-height:1.1;margin:8px 0 2px;word-break:break-word;}
+  #nowPlaying{color:var(--accent);font-size:17px;min-height:22px;margin-top:6px;}
+  #status{color:var(--dim);font-size:15px;min-height:20px;margin-top:2px;}
+  button{font-family:inherit;border:none;border-radius:16px;cursor:pointer;color:var(--ink);}
+  #nextBtn{width:100%;padding:26px 10px;font-size:30px;font-weight:800;letter-spacing:.5px;
+    background:linear-gradient(180deg,var(--accent),var(--accent2));color:#231600;
+    box-shadow:0 8px 20px rgba(251,133,0,.35);}
+  #nextBtn:active{transform:scale(.985);}
+  .row{display:flex;gap:10px;margin-top:12px;}
+  .row button{flex:1;padding:15px 6px;font-size:16px;font-weight:700;background:var(--panel2);}
+  .row button:active{transform:scale(.98);}
+  .panel{background:var(--panel);border-radius:20px;padding:16px;margin:16px 0;}
+  .panel h2{margin:0 0 6px;font-size:19px;}
+  .panel p.hint{color:var(--dim);font-size:14px;margin:0 0 10px;}
+  .addRow{display:flex;gap:8px;}
+  .addRow input{flex:1;padding:13px 12px;font-size:17px;border-radius:12px;border:2px solid #2c3568;
+    background:#0e1330;color:var(--ink);}
+  .addRow button{padding:13px 18px;font-size:16px;font-weight:700;background:var(--good);color:#06280f;}
+  ul#roster{list-style:none;margin:12px 0 0;padding:0;}
+  ul#roster li{display:flex;align-items:center;gap:10px;background:var(--panel2);border-radius:12px;
+    padding:10px 12px;margin-bottom:8px;}
+  ul#roster li .num{color:var(--dim);font-weight:700;width:26px;text-align:right;}
+  ul#roster li .nm{flex:1;font-size:19px;font-weight:700;text-align:left;background:none;padding:4px 0;}
+  ul#roster li.up .nm{color:var(--accent);}
+  ul#roster li .del{background:#2a2f57;color:var(--red);font-size:15px;padding:8px 11px;border-radius:10px;}
+  .mini{font-size:13px;color:var(--dim);}
+  .songs{font-size:14px;color:var(--dim);line-height:1.55;}
+  .songs b{color:var(--ink);}
+  #testBtn{width:100%;padding:13px;font-size:15px;font-weight:700;background:var(--panel2);margin-top:4px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="ball">⚾</span> BATTER UP!</h1>
+    <p class="sub">Walk-up music for Sammy's party</p>
+  </header>
+
+  <div class="stage">
+    <div class="label">At bat</div>
+    <div id="atBat">—</div>
+    <div id="nowPlaying"></div>
+    <div id="status">Add the batting order below, then hit NEXT BATTER.</div>
+  </div>
+
+  <button id="nextBtn">▶️ NEXT BATTER</button>
+  <div class="row">
+    <button id="announceBtn">📣 Announce again</button>
+    <button id="skipBtn">⏩ Skip song</button>
+    <button id="stopBtn">⏹ Stop</button>
+  </div>
+
+  <div class="panel">
+    <h2>Batting order</h2>
+    <p class="hint">Tap a name to play that kid's walk-up right away. The list is saved on this phone.</p>
+    <div class="addRow">
+      <input id="nameInput" type="text" placeholder="Kid's name" autocomplete="off" autocapitalize="words">
+      <button id="addBtn">Add</button>
+    </div>
+    <ul id="roster"></ul>
+    <div class="row">
+      <button id="shuffleBtn">🔀 Shuffle order</button>
+      <button id="clearBtn">Clear list</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>One-off announcement</h2>
+    <p class="hint">For a name that's not in the order.</p>
+    <div class="addRow">
+      <input id="oneOffInput" type="text" placeholder="Name to announce" autocomplete="off" autocapitalize="words">
+      <button id="oneOffBtn">Play</button>
+    </div>
+    <div style="height:12px"></div>
+    <button id="testBtn">🔊 Test sound (song + voice)</button>
+    <p class="mini" style="margin-top:10px">Before the game: connect the Bluetooth speaker, turn the phone volume up, and flip the silent switch off. The music and the name announcement both come out of the speaker.</p>
+  </div>
+
+  <div class="panel">
+    <h2>The songs</h2>
+    <div class="songs" id="songList"></div>
+    <p class="mini">Each walk-up plays the big chorus section of the song (about 15 seconds), then the name is announced. Songs are picked at random — never the same one twice in a row.</p>
+  </div>
+</div>
+
+<script>
+"use strict";
+// ---- Song setup: preview clips with a hand-picked start point at the hook/chorus ----
+const SNIPPET_SECONDS = 15;
+const SONGS = [
+  { title: "Golden",                    artist: "HUNTR/X · KPop Demon Hunters", start: 2,   src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/9d/a1/4a9da1c4-096f-8f45-4a3b-c883c45ca451/mzaf_3059921854949935161.plus.aac.p.m4a" },
+  { title: "Can't Stop the Feeling!",   artist: "Justin Timberlake",            start: 14,  src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/41/2d/86412d20-2f4d-39fc-221b-3f643d7c99c6/mzaf_9909715182585785919.plus.aac.p.m4a" },
+  { title: "Shake It Off",              artist: "Taylor Swift",                 start: 9,   src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/b7/39/25b7398a-a120-3f2a-de52-c2719e047b80/mzaf_1911282677301986548.plus.aac.p.m4a" },
+  { title: "Levitating",                artist: "Dua Lipa",                     start: 0,   src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/dc/4d/59dc4dda-93ff-8f1c-c536-f005f6ea6af5/mzaf_3066686759813252385.plus.aac.p.m4a" },
+  { title: "We Don't Talk About Bruno", artist: "Encanto Cast",                 start: 6.5, src: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/0a/76/550a76f2-cf9c-3e07-8b9c-5c210e73af44/mzaf_13858819433882654714.plus.aac.p.m4a" }
+];
+
+// ---- State ----
+const $ = id => document.getElementById(id);
+let roster = [];
+try { roster = JSON.parse(localStorage.getItem("batterup.roster.v1") || "[]"); } catch(e) { roster = []; }
+let upNext = parseInt(localStorage.getItem("batterup.idx.v1") || "0", 10) || 0;
+let currentName = "";
+let lastSongIdx = -1;
+let seq = 0;               // sequence token: cancels stale timers when a new walk-up starts
+let fadeTimer = null, endTimer = null;
+const players = {};        // src -> Audio (preloaded)
+
+// ---- Audio plumbing ----
+function playerFor(song){
+  if (!players[song.src]) {
+    const a = new Audio();
+    a.preload = "auto";
+    a.src = song.src;
+    players[song.src] = a;
+  }
+  return players[song.src];
+}
+function warmCache(){ SONGS.forEach(s => { try { playerFor(s).load(); } catch(e){} }); }
+window.addEventListener("pointerdown", warmCache, { once:true });
+
+function stopAllAudio(){
+  Object.values(players).forEach(a => { try { a.pause(); } catch(e){} });
+  if (fadeTimer) { clearInterval(fadeTimer); fadeTimer = null; }
+  if (endTimer)  { clearTimeout(endTimer);  endTimer = null; }
+  try { speechSynthesis.cancel(); } catch(e){}
+}
+
+// ---- Voice ----
+function speakName(name, mySeq){
+  if (!("speechSynthesis" in window)) { setStatus("This browser has no voice — just play the song!"); return; }
+  try { speechSynthesis.cancel(); } catch(e){}
+  const u = new SpeechSynthesisUtterance("Now batting... " + name + "!");
+  const voices = speechSynthesis.getVoices().filter(v => /^en(-|_)/i.test(v.lang));
+  if (voices.length) u.voice = voices.find(v => /en[-_]US/i.test(v.lang)) || voices[0];
+  u.rate = 0.92; u.pitch = 1.05; u.volume = 1;
+  if (mySeq === seq) {
+    setStatus("📣 Announcing " + name + "!");
+    speechSynthesis.speak(u);
+  }
+}
+if ("speechSynthesis" in window) { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices(); }
+
+// ---- The walk-up sequence ----
+function walkUp(name){
+  if (!name) return;
+  seq++;
+  const mySeq = seq;
+  stopAllAudio();
+  currentName = name;
+  $("atBat").textContent = name;
+  renderRoster();
+
+  let idx;
+  do { idx = Math.floor(Math.random() * SONGS.length); } while (SONGS.length > 1 && idx === lastSongIdx);
+  lastSongIdx = idx;
+  const song = SONGS[idx];
+  const a = playerFor(song);
+  a.volume = 1;
+  try { a.currentTime = song.start; } catch(e){}
+  $("nowPlaying").textContent = "🎵 " + song.title + " — " + song.artist;
+  setStatus("🎶 Walk-up music for " + name + "...");
+  const p = a.play();
+  if (p && p.catch) p.catch(() => { setStatus("Tap NEXT BATTER again — the phone blocked the first play."); });
+
+  const FADE = 0.9, total = SNIPPET_SECONDS;
+  endTimer = setTimeout(() => {
+    if (mySeq !== seq) return;
+    const steps = 9, stepMs = (FADE * 1000) / steps;
+    let i = 0;
+    fadeTimer = setInterval(() => {
+      if (mySeq !== seq) { clearInterval(fadeTimer); return; }
+      i++;
+      try { a.volume = Math.max(0, 1 - i / steps); } catch(e){}
+      if (i >= steps) {
+        clearInterval(fadeTimer); fadeTimer = null;
+        try { a.pause(); } catch(e){}
+        setTimeout(() => speakName(name, mySeq), 250);
+      }
+    }, stepMs);
+  }, (total - FADE) * 1000);
+}
+
+function skipToAnnounce(){
+  if (!currentName) return;
+  seq++;
+  const mySeq = seq;
+  stopAllAudio();
+  $("nowPlaying").textContent = "";
+  speakName(currentName, mySeq);
+}
+
+// ---- Roster UI ----
+function saveRoster(){
+  localStorage.setItem("batterup.roster.v1", JSON.stringify(roster));
+  localStorage.setItem("batterup.idx.v1", String(upNext));
+}
+function renderRoster(){
+  const ul = $("roster");
+  ul.innerHTML = "";
+  roster.forEach((name, i) => {
+    const li = document.createElement("li");
+    if (name === currentName) li.className = "up";
+    const num = document.createElement("span"); num.className = "num"; num.textContent = (i + 1) + ".";
+    const nm = document.createElement("button"); nm.className = "nm"; nm.textContent = name;
+    nm.onclick = () => { upNext = i; advancePointer(); walkUp(name); };
+    const del = document.createElement("button"); del.className = "del"; del.textContent = "✕";
+    del.onclick = () => { roster.splice(i, 1); if (upNext >= roster.length) upNext = 0; saveRoster(); renderRoster(); };
+    li.appendChild(num); li.appendChild(nm); li.appendChild(del);
+    ul.appendChild(li);
+  });
+}
+function advancePointer(){
+  upNext = roster.length ? (upNext + 1) % roster.length : 0;
+  saveRoster();
+}
+function setStatus(t){ $("status").textContent = t; }
+
+function addName(){
+  const v = $("nameInput").value.trim();
+  if (!v) return;
+  roster.push(v);
+  $("nameInput").value = "";
+  saveRoster(); renderRoster();
+  setStatus(v + " added to the batting order.");
+}
+
+// ---- Controls ----
+$("nextBtn").onclick = () => {
+  warmCache();
+  if (!roster.length) {
+    const v = $("oneOffInput").value.trim();
+    if (v) { walkUp(v); return; }
+    setStatus("Add the kids' names to the batting order first — or use the one-off box below.");
+    $("nameInput").focus();
+    return;
+  }
+  const name = roster[upNext % roster.length];
+  advancePointer();
+  walkUp(name);
+};
+$("announceBtn").onclick = () => { if (currentName) speakName(currentName, seq); else setStatus("Nobody is at bat yet — hit NEXT BATTER."); };
+$("skipBtn").onclick = skipToAnnounce;
+$("stopBtn").onclick = () => { seq++; stopAllAudio(); $("nowPlaying").textContent = ""; setStatus("Stopped."); };
+$("addBtn").onclick = addName;
+$("nameInput").addEventListener("keydown", e => { if (e.key === "Enter") addName(); });
+$("shuffleBtn").onclick = () => {
+  for (let i = roster.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [roster[i], roster[j]] = [roster[j], roster[i]]; }
+  upNext = 0; saveRoster(); renderRoster(); setStatus("Batting order shuffled.");
+};
+$("clearBtn").onclick = () => { roster = []; upNext = 0; currentName = ""; saveRoster(); renderRoster(); $("atBat").textContent = "—"; setStatus("Batting order cleared."); };
+$("oneOffBtn").onclick = () => { const v = $("oneOffInput").value.trim(); if (v) walkUp(v); };
+$("oneOffInput").addEventListener("keydown", e => { if (e.key === "Enter") { const v = e.target.value.trim(); if (v) walkUp(v); } });
+$("testBtn").onclick = () => walkUp("Testing Testing");
+
+// ---- Song list display ----
+$("songList").innerHTML = SONGS.map(s => "<b>" + s.title + "</b> — " + s.artist).join("<br>");
+
+// ---- Keep the screen awake during the game ----
+let wakeLock = null;
+async function grabWakeLock(){ try { wakeLock = await navigator.wakeLock.request("screen"); } catch(e){} }
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") grabWakeLock(); });
+window.addEventListener("pointerdown", grabWakeLock, { once:true });
+
+renderRoster();
+</script>
+</body>
+</html>
