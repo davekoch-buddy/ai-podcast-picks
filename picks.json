@@ -1,1 +1,56 @@
-{"date": "Saturday, October 17, 2026", "episodes": [{"about": "The most consequential AI announcements this week may be the ones getting the least attention: Microsoft's MAI Base 2 and Meta's Muse Spark Open, and what they mean for how businesses use, customize, and pay for AI. Headlines include Anthropic's embedded safety evaluators, Cognition's performance-based token budgets, and a community-built AI battle royale.", "audio": "https://anchor.fm/s/f7cac464/podcast/play/127588942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434325005-44100-2-5490e254caf05.mp3", "date": "Fri, Oct 16, 2026", "length": "29 min", "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-AI-News-This-Week-Is-Getting-Overlooked-e3qk74e", "show": "The AI Daily Brief", "title": "The Most Important AI News This Week Is Getting Overlooked", "why": "Microsoft's MAI Base 2 and Meta's Muse Spark Open landed with little fanfare - NLW argues they change how companies buy and customize AI more than the week's bigger headlines."}, {"about": "OpenAI president Greg Brockman joins Sarah Guo and Elad Gil on what the latest frontier models change for science and security: AI agents solving nearly 400 century-old math problems, drug discovery past the biology data bottleneck, a critical window to use AI to find and fix vulnerabilities before attackers do, and proactive always-on agents like Dots.", "audio": "https://traffic.megaphone.fm/PDP1628614600.mp3", "date": "Thu, Oct 15, 2026", "length": "39 min", "page": "https://www.radio.pl/podcast/no-priors", "show": "No Priors", "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman", "why": "Brockman puts numbers on it: nearly 400 century-old math problems solved by agents, and a closing window to use the same capability to patch vulnerabilities first."}, {"about": "Zocdoc CEO Oliver Kharraz argues the hard part of booking care is not finding a doctor but accurate availability, and explains why Zocdoc is opening the scheduling infrastructure it built over nearly 20 years to AI agents, insurers, and other platforms - including a partnership with Gemini - so appointments can be booked wherever a patient starts.", "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/60df6c4d-a29a-4c66-994e-bbd659a2e577/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=60df6c4d-a29a-4c66-994e-bbd659a2e577&feed=JGE3yC0V", "date": "Sat, Oct 17, 2026", "length": "35 min", "page": "https://a16z.simplecast.com/episodes/why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver-kharraz-9n_zG60B", "show": "The a16z Show", "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz", "why": "Out this morning: Zocdoc is opening its booking rails to AI agents and Gemini, so scheduling a doctor may soon happen inside the chat instead of on a website."}, {"about": "Top AI leaders are saying their own technology is moving too fast and asking to be regulated, but none of them slows down for fear of being left behind. Planet Money looks to 1975, when gene-splicing scientists gathered at Asilomar and collectively hit pause on their own field, for a way out of the collective action problem.", "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/fe8692b3-52a9-469e-a8ea-d46bc049377c/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=fe8692b3-52a9-469e-a8ea-d46bc049377c&feed=hvWWWzRv&t=podcast&e=nx-s1-6002910&p=510289&d=1750&size=28012130", "date": "Wed, Oct 14, 2026", "length": "29 min", "page": "https://www.npr.org/2026/10/14/nx-s1-6002910/ai-scientific-regulation-conference-asilomar", "show": "Planet Money", "title": "Wanna slow down AI? These biologists can help.", "why": "Discovery pick - NPR's economics show, in plain language: in 1975 biologists paused gene-splicing on purpose at Asilomar. AI's leaders say they want the same brake and cannot find it."}, {"about": "A frontier model spent weeks troubleshooting a Mac Mail slowdown and kept digging down the same wrong path; the answer was there once the question changed. The hosts break down why agents get locked into a path they have already taken and the practical fixes - reframing the question, spinning up a fresh agent for a second opinion - plus what changes when GrokBot and MCP connections give AI access to your own data.", "audio": "https://pp1.bbmpx.com/protect/bb/pscrb.fm/rss/p/media.blubrry.com/dba_the_small_business_show/dts.podtrac.com/redirect.mp3/businessbrain.show/cdn/dba/BB_20261016-797.mp3", "date": "Fri, Oct 16, 2026", "length": "25 min", "page": "https://businessbrain.show/ai-tunnel-vision-and-data-access-business-brain-797/", "show": "Business Brain", "title": "AI Tunnel Vision and Data Access", "why": "Discovery pick - a long-running entrepreneurs' show: a frontier model wasted weeks on a Mac Mail problem by refusing to reframe it, and the fixes are ones you can use today."}], "updated": "2026-10-17"}
+{
+ "date": "Sunday, October 18, 2026",
+ "updated": "2026-10-18",
+ "episodes": [
+  {
+   "show": "The a16z Show",
+   "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI's Mario Martone",
+   "date": "Sun, Oct 18, 2026",
+   "length": "24 min",
+   "about": "What changes when an AI mistake doesn't just hurt a benchmark score, but affects someone's housing or healthcare? EliseAI Head of Applied Research Mario Martone argues that deploying AI in essential industries requires a very different standard of reliability. He explains how EliseAI handles roughly 5 million phone calls a month, why LLMs aren't the right solution for every problem, and how the team combines language models, traditional machine learning, and internally built evaluations to decide what actually works in production.",
+   "why": "Out today: EliseAI runs about 5 million housing and healthcare calls a month, and Martone explains why a wrong answer there demands a different reliability bar than a benchmark score.",
+   "page": "https://a16z.simplecast.com/episodes/why-real-world-ai-is-harder-than-the-benchmark-eliseais-mario-martone-SJLazqim",
+   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/85a52844-6698-4658-9957-0133eabffba6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=85a52844-6698-4658-9957-0133eabffba6&feed=JGE3yC0V"
+  },
+  {
+   "show": "The AI Daily Brief",
+   "title": "How the Latest AI Leap Is Disrupting Business Models",
+   "date": "Thu, Oct 15, 2026",
+   "length": "31 min",
+   "about": "AI's latest capability jump is forcing companies to rethink their business models. From Adobe clones to one-person game studios, NLW explores what's changing, what's overhyped, and where new opportunities are emerging. In the headlines: Anthropic's revenue surge, CoreWeave's debt troubles, and Jensen Huang on AI safety.",
+   "why": "The latest capability jump is already breaking business models - Adobe clones and one-person game studios - plus Anthropic's revenue surge and CoreWeave's debt troubles in the headlines.",
+   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Latest-AI-Leap-Is-Disrupting-Business-Models-e3qiqv8",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127543720/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2F434264462-44100-2-58a405fb5f99f.mp3"
+  },
+  {
+   "show": "AI For Humans",
+   "title": "Gemini 4 & Meta's Muse Wonder Are Good. Not Great.",
+   "date": "Fri, Oct 16, 2026",
+   "length": "53 min",
+   "about": "AI news this week: Google's Gemini 4 Argon and Meta's Muse Wonder are finally here, plus Xbox Labs, Epic's big AI pivot and an AI agent vs. Delta customer service. Kevin Pereira and Gavin Purcell dig into two new frontier AI models that are pretty good, but maybe not great: Gemini 4 Argon shines on science, but some early reviewers say it hallucinates.",
+   "why": "Discovery pick - a weekly AI news show hosted by Kevin Pereira and Gavin Purcell: hands-on verdicts on Gemini 4 Argon and Meta's Muse Wonder, specific about where each model falls short.",
+   "page": "https://www.aiforhumans.show/",
+   "audio": "https://traffic.libsyn.com/secure/eb8db28e-503a-471d-a9c6-2b39a3434c0d/AIForHumansGeminiArgon4MuseWonder.mp3?dest-id=3976203"
+  },
+  {
+   "show": "Eye on AI",
+   "title": "Is This the Cheapest Way to Use AI in 2026? (65+ Models Tested) | Iskander Malikov, Trioma",
+   "date": "Fri, Oct 16, 2026",
+   "length": "55 min",
+   "about": "What if you didn't have to choose between ChatGPT, Claude, and Gemini, and instead the platform chose for you? That is the idea behind Trioma, a vertically integrated AI ecosystem built in the UAE. Craig Smith sits down with Trioma co-founder and CEO Iskander Malikov to unpack how Trioma's orchestration engine routes prompts across 65 models, and why token price is a misleading metric.",
+   "why": "Trioma routes each prompt across 65 different models and tested them all - a practical look at why token price is the wrong number to shop on.",
+   "page": "https://aneyeonai.libsyn.com/is-this-the-cheapest-way-to-use-ai-in-2026-65-models-tested-iskander-malikov-trioma",
+   "audio": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-393-LA_V2.mp3?dest-id=727317"
+  },
+  {
+   "show": "All-In Podcast",
+   "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+   "date": "Sat, Oct 17, 2026",
+   "length": "94 min",
+   "about": "Ben Horowitz fills in for Friedberg as the panel takes up CoreWeave's debt selloff and whether the AI bubble just popped, AI's deflationary impact on decompiled software, Anthropic's investor day and the mixed reactions to it, Anthropic's warning about self-replicating models on IoT devices, and Bill Gates the doomer.",
+   "why": "Discovery pick - the weekly tech-and-business roundtable with Chamath, Jason, Sacks and guest Ben Horowitz: CoreWeave's debt selloff, Anthropic's investor day, and a warning about self-replicating models.",
+   "page": "https://allinchamathjason.libsyn.com/coreweave-crash-ai-trade-cracks-anthropic-ipo-red-flags-bill-gates-doomer",
+   "audio": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E293_Ch.mp3?dest-id=1928300"
+  }
+ ]
+}
