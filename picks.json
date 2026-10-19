@@ -1,56 +1,56 @@
 {
- "date": "Sunday, October 18, 2026",
- "updated": "2026-10-18",
+ "date": "Monday, October 19, 2026",
+ "updated": "2026-10-19",
  "episodes": [
   {
-   "show": "The a16z Show",
-   "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI's Mario Martone",
+   "show": "The AI Daily Brief",
+   "title": "A Potentially Historic AI Breakthrough",
    "date": "Sun, Oct 18, 2026",
    "length": "24 min",
-   "about": "What changes when an AI mistake doesn't just hurt a benchmark score, but affects someone's housing or healthcare? EliseAI Head of Applied Research Mario Martone argues that deploying AI in essential industries requires a very different standard of reliability. He explains how EliseAI handles roughly 5 million phone calls a month, why LLMs aren't the right solution for every problem, and how the team combines language models, traditional machine learning, and internally built evaluations to decide what actually works in production.",
-   "why": "Out today: EliseAI runs about 5 million housing and healthcare calls a month, and Martone explains why a wrong answer there demands a different reliability bar than a benchmark score.",
-   "page": "https://a16z.simplecast.com/episodes/why-real-world-ai-is-harder-than-the-benchmark-eliseais-mario-martone-SJLazqim",
-   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/85a52844-6698-4658-9957-0133eabffba6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=85a52844-6698-4658-9957-0133eabffba6&feed=JGE3yC0V"
+   "about": "A new essay from former OpenAI researcher Nick Cammarata is being hailed as a potentially historic AI breakthrough. His argument: neural networks may already be far more understandable than researchers believed, and years of apparent complexity may reflect flaws in how we've been looking at them. NLW breaks down the surprisingly simple connection between cat faces and car fronts, why bigger models could be easier to interpret, and what this could mean for detecting AI deception.",
+   "why": "Out yesterday: Cammarata argues neural nets are far more interpretable than researchers believed, and that bigger models may be easier, not harder, to understand - with direct implications for catching AI deception.",
+   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/A-Potentially-Historic-AI-Breakthrough-e3qmclm",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127660150/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-18%2F434419246-44100-2-359c777b06394.mp3"
   },
   {
-   "show": "The AI Daily Brief",
-   "title": "How the Latest AI Leap Is Disrupting Business Models",
-   "date": "Thu, Oct 15, 2026",
-   "length": "31 min",
-   "about": "AI's latest capability jump is forcing companies to rethink their business models. From Adobe clones to one-person game studios, NLW explores what's changing, what's overhyped, and where new opportunities are emerging. In the headlines: Anthropic's revenue surge, CoreWeave's debt troubles, and Jensen Huang on AI safety.",
-   "why": "The latest capability jump is already breaking business models - Adobe clones and one-person game studios - plus Anthropic's revenue surge and CoreWeave's debt troubles in the headlines.",
-   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Latest-AI-Leap-Is-Disrupting-Business-Models-e3qiqv8",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127543720/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2F434264462-44100-2-58a405fb5f99f.mp3"
-  },
-  {
-   "show": "AI For Humans",
-   "title": "Gemini 4 & Meta's Muse Wonder Are Good. Not Great.",
-   "date": "Fri, Oct 16, 2026",
-   "length": "53 min",
-   "about": "AI news this week: Google's Gemini 4 Argon and Meta's Muse Wonder are finally here, plus Xbox Labs, Epic's big AI pivot and an AI agent vs. Delta customer service. Kevin Pereira and Gavin Purcell dig into two new frontier AI models that are pretty good, but maybe not great: Gemini 4 Argon shines on science, but some early reviewers say it hallucinates.",
-   "why": "Discovery pick - a weekly AI news show hosted by Kevin Pereira and Gavin Purcell: hands-on verdicts on Gemini 4 Argon and Meta's Muse Wonder, specific about where each model falls short.",
-   "page": "https://www.aiforhumans.show/",
-   "audio": "https://traffic.libsyn.com/secure/eb8db28e-503a-471d-a9c6-2b39a3434c0d/AIForHumansGeminiArgon4MuseWonder.mp3?dest-id=3976203"
-  },
-  {
-   "show": "Eye on AI",
-   "title": "Is This the Cheapest Way to Use AI in 2026? (65+ Models Tested) | Iskander Malikov, Trioma",
-   "date": "Fri, Oct 16, 2026",
-   "length": "55 min",
-   "about": "What if you didn't have to choose between ChatGPT, Claude, and Gemini, and instead the platform chose for you? That is the idea behind Trioma, a vertically integrated AI ecosystem built in the UAE. Craig Smith sits down with Trioma co-founder and CEO Iskander Malikov to unpack how Trioma's orchestration engine routes prompts across 65 models, and why token price is a misleading metric.",
-   "why": "Trioma routes each prompt across 65 different models and tested them all - a practical look at why token price is the wrong number to shop on.",
-   "page": "https://aneyeonai.libsyn.com/is-this-the-cheapest-way-to-use-ai-in-2026-65-models-tested-iskander-malikov-trioma",
-   "audio": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-393-LA_V2.mp3?dest-id=727317"
-  },
-  {
-   "show": "All-In Podcast",
-   "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+   "show": "The Cognitive Revolution",
+   "title": "AI:AM: Where's the Steering Wheel? My Agent Set the Password, Hidden Valence, Proofs Find Linux Bugs",
    "date": "Sat, Oct 17, 2026",
-   "length": "94 min",
-   "about": "Ben Horowitz fills in for Friedberg as the panel takes up CoreWeave's debt selloff and whether the AI bubble just popped, AI's deflationary impact on decompiled software, Anthropic's investor day and the mixed reactions to it, Anthropic's warning about self-replicating models on IoT devices, and Bill Gates the doomer.",
-   "why": "Discovery pick - the weekly tech-and-business roundtable with Chamath, Jason, Sacks and guest Ben Horowitz: CoreWeave's debt selloff, Anthropic's investor day, and a warning about self-replicating models.",
-   "page": "https://allinchamathjason.libsyn.com/coreweave-crash-ai-trade-cracks-anthropic-ipo-red-flags-bill-gates-doomer",
-   "audio": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E293_Ch.mp3?dest-id=1928300"
+   "length": "87 min",
+   "about": "Nathan Labenz and Prakash Narayanan examine how to grant AI agents operational access without losing human control, framed by real-world friction like autonomous password lockouts and cyberattacks on French supermarket refrigeration. The conversation features Cameron Berg on hidden valence signals steering language model choices, Everett Hildenbrandt and Grigore Rosu on pairing LLMs with formal Lean proofs to catch Linux kernel bugs, and Phil Maher on why AI labs seek vintage home movies.",
+   "why": "An agent set its own password and locked the humans out: a concrete tour of agent control, hidden signals steering model choices, and formal proofs catching Linux kernel bugs.",
+   "page": "https://www.cognitiverevolution.ai/ai-am-where-s-the-steering-wheel-my-agent-set-the-password-hidden-valence-proofs-find-linux-bugs/",
+   "audio": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP1914037512.mp3"
+  },
+  {
+   "show": "Decoder with Nilay Patel",
+   "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+   "date": "Mon, Oct 19, 2026",
+   "length": "59 min",
+   "about": "Illinois Gov. JB Pritzker has a lot of thoughts about AI, tech, and privacy - issues driving a big and maybe kind of unexpected political realignment, with the midterms coming up next month and early voting already underway in a lot of places. Pritzker has signed a landmark AI regulation bill and established an AI Cabinet. Nilay Patel asks him what government is even for in the AI era - and whether the Bears are going to stay in Illinois.",
+   "why": "Discovery pick — The Verge's interview show about big ideas and how decisions get made: Pritzker, who just signed a landmark state AI regulation bill, on AI, longevity, and which problems only government can solve.",
+   "page": "https://podcasts.apple.com/us/podcast/jb-pritzker-thinks-ai-could-help-us-live-to-100-or/id1011668648?i=1000797044168&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5027487751.mp3"
+  },
+  {
+   "show": "Mixture of Experts",
+   "title": "Decision models take off & Anthropic bans cruelty to Claude",
+   "date": "Fri, Oct 16, 2026",
+   "length": "32 min",
+   "about": "Microsoft, OpenAI, Perplexity, and Cloudflare follow TypeSafe's Jev in building decision models, a new category of AI built to make fast, scored judgments, and the panel debates whether better-calibrated confidence scores can fix LLM overconfidence. A new study finds teams of AI agents can cost two to five times more than a single agent without consistently delivering better results. Finally, Anthropic updates its usage policy to prohibit sustained and needless abusive or cruel behavior toward its models.",
+   "why": "Discovery pick — IBM Think's weekly AI roundtable: decision models are suddenly everywhere, agent teams cost 2-5x more without reliably beating a single agent, and Anthropic now bans sustained cruelty to Claude.",
+   "page": "https://podcasts.apple.com/us/podcast/decision-models-take-off-anthropic-bans-cruelty-to-claude/id1743817188?i=1000796651305&uo=4",
+   "audio": "https://cdnapisec.kaltura.com/p/1773841/sp/177384100/playManifest/entryId/1_6phkx6ji/format/download/protocol/https/flavorParamIds/0/name/media.mp3"
+  },
+  {
+   "show": "Big Technology Podcast",
+   "title": "Anthropic IPO Panic, A Spy At OpenAI?, The Great Food Slop Debate",
+   "date": "Fri, Oct 16, 2026",
+   "length": "59 min",
+   "about": "Anthropic's 2026 financial numbers have leaked - Q3 revenue hit $16.8 billion, up about 45% from Q2 but growing more slowly than the fever pace Claude Code set earlier in the year - and would-be IPO investors are jittery about the valuation. Alex Kantrowitz and Ranjan Roy also take up CoreWeave's stock fall as AI jitters spread, the curious case of the strategically placed recording device at OpenAI, and Apple's promising HomeView.",
+   "why": "Discovery pick — Alex Kantrowitz's tech news show: Anthropic's leaked numbers are rattling IPO expectations, CoreWeave is sliding with the AI trade, and someone planted a recording device at OpenAI.",
+   "page": "https://podcasts.apple.com/us/podcast/anthropic-ipo-panic-a-spy-at-openai-the-great-food/id1522960417?i=1000796690149&uo=4",
+   "audio": "https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP9209422034.mp3"
   }
  ]
 }
