@@ -405,8 +405,14 @@ document.getElementById('mini-spd').addEventListener('click', () => {
   document.getElementById('mini-spd').textContent = speeds[speedIdx] + '×';
 });
 if ('mediaSession' in navigator) {
-  navigator.mediaSession.setActionHandler('seekbackward', () => { audio.currentTime = Math.max(0, audio.currentTime - 30); });
-  navigator.mediaSession.setActionHandler('seekforward', () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
+  const back30 = () => { audio.currentTime = Math.max(0, audio.currentTime - 30); };
+  const fwd30 = () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); };
+  navigator.mediaSession.setActionHandler('seekbackward', back30);
+  navigator.mediaSession.setActionHandler('seekforward', fwd30);
+  // Car steering-wheel next/previous buttons send nexttrack/previoustrack.
+  // Per Dave (2026-10-19): those must skip -/+30s, never change episodes.
+  navigator.mediaSession.setActionHandler('previoustrack', back30);
+  navigator.mediaSession.setActionHandler('nexttrack', fwd30);
 }
 
 function buildCard(ep, day) {
