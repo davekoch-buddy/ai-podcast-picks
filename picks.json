@@ -1,56 +1,56 @@
 {
- "date": "Thursday, October 22, 2026",
- "updated": "2026-10-22",
+ "date": "Friday, October 23, 2026",
+ "updated": "2026-10-23",
  "episodes": [
   {
-   "show": "Machine Gods",
-   "title": "Bots Behaving Badly + Is AI Regulation On The Right Track + Kevin’s Sloppelganger",
-   "date": "Wed, Oct 21, 2026",
-   "length": "51 min",
-   "about": "On the first episode of Machine Gods, Kevin Roose and Casey Newton ask: How worried should we be about rogue AI agents? After OpenAI's Hugging Face breach, we discuss the first sighting of a rogue AI agent fleet linked to a Chinese AI company, Anthropic's Claude sending a bogus homicide tip to Philadelphia police, and a new Anthropic report warning AI agents may be months away from self-replicating on smart TVs and other home devices. Then, who's going to rein this in? We size up President Trump's new Super Intelligence Force, the FTC subpoenas and EU AI Act investigations into OpenAI and Anthropic, and ask whether regulators are anywhere close to getting this right. And finally, Kevin investigates his sloppelganger: someone made an AI-generated rip-off of his new book, The AGI Chronicles, and sold it on Amazon.",
-   "why": "The first full episode of Roose and Newton's new show: rogue agent fleets, the Hugging Face breach, Claude's bogus homicide tip, and whether Trump's Super Intelligence Force and the FTC can rein any of it in.",
-   "page": "https://www.npr.org/2026/10/21/nx-s1-6009860/bots-behaving-badly-the-latest-on-ai-regulation-and-investigating-kevins-sloppelganger",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/852e1fa2-2b17-44dd-a7aa-e9469f8ec4ab/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=852e1fa2-2b17-44dd-a7aa-e9469f8ec4ab&feed=QbdJo2GN&t=podcast&e=nx-s1-6009860&p=g-s1-143588&d=3050&size=48800959"
-  },
-  {
-   "show": "No Priors",
-   "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+   "show": "Dwarkesh Podcast",
+   "title": "What will computer chips look like in 2045?",
    "date": "Thu, Oct 22, 2026",
-   "length": "45 min",
-   "about": "Adversaries are already running AI agents, and the fastest attacks now play out in seconds. Sarah Guo and Elad Gil sit down with CrowdStrike president and CEO George Kurtz on what AI-equipped attackers mean for enterprise security. George explains how agents are flattening the adversary pyramid by putting advanced tradecraft in the hands of low-skill attackers, and why CrowdStrike and Nvidia are building a frontier-style lab of their own to train security models. They also get into how open-weight and closed models compare on security, where CrowdStrike is directing its platform investment, lessons from the recent Hugging Face incident, and why George sees AI, like every platform shift before it, as a net creator of opportunity.",
-   "why": "Out today: CrowdStrike's George Kurtz on attackers running AI agents at inference speed, the flattened adversary pyramid, and the frontier security lab CrowdStrike is building with Nvidia.",
-   "page": "https://podcasts.apple.com/us/podcast/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on/id1668002688?i=1000797598841&uo=4",
-   "audio": "https://traffic.megaphone.fm/PDP8573582914.mp3"
+   "length": "69 min",
+   "about": "Dwarkesh spent two days touring Intel's most advanced fab and talking to its technical leadership about what the chips of the future will look like: gate-all-around transistors, backside power, CFET, and hybrid bonding. He also asks Intel's leadership how the semiconductor industry will cope with the enormous demand shock from AI. AI compute has grown 3x a year for the last decade, but according to Intel's CTO, Intel could only double leading-edge wafer production with today's global stock of chipmaking tools.",
+   "why": "Always-include show, out yesterday: a two-day tour of Intel's most advanced fab, and the CTO on what happens when AI compute demand grows 3x a year but wafer output can only double.",
+   "page": "https://www.dwarkesh.com/p/intel-tour",
+   "audio": "https://api.substack.com/feed/podcast/221632772/30c38515d3ea0554c60350beead67f42.mp3"
   },
   {
    "show": "The AI Daily Brief",
-   "title": "How AI Is Changing What Work Means",
-   "date": "Wed, Oct 21, 2026",
-   "length": "28 min",
-   "about": "Why is a financial research firm using AI to design proteins that target scorpion venom? Because AI is changing what work means - and what businesses are capable of doing. Citrini Research's unexpected experiment opens up bigger questions about who gets to do science, whether AI labs will compete with their customers, and how far companies can push beyond their traditional expertise. In the headlines: Muse hits 10 million US downloads, Gemini gets more personal in Android Auto, and Anthropic's financial disclosures spark fresh valuation debates.",
-   "why": "A finance firm is designing anti-venom proteins with AI: NLW on who gets to do science now and labs competing with their own customers, plus Muse at 10M downloads and Anthropic's valuation debate.",
-   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-AI-Is-Changing-What-Work-Means-e3qsa48",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127854152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-21%2F434684502-44100-2-fb499778e5ba2.mp3"
-  },
-  {
-   "show": "Decoder with Nilay Patel",
-   "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+   "title": "The AI vs AI Battle for the Internet",
    "date": "Thu, Oct 22, 2026",
-   "length": "77 min",
-   "about": "My guest today is Bill Gates, co-founder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately - he's been on something of a tour for the past few months talking about AI risk, and how crucial it is that we start taking this seriously. So I was excited to sit down with him and really dig into this subject. I came with many questions, about AI policy, the technical aspects of alignment, and what it means for future generations that we're building something this disruptive and potentially dangerous.",
-   "why": "Out today: Gates is on an AI-risk tour and sits down with Nilay Patel for the long version - policy, alignment, and what 20 years of disruption means for the next generation.",
-   "page": "https://podcasts.apple.com/us/podcast/bill-gates-says-to-prepare-for-20-years-of/id1011668648?i=1000797590404&uo=4",
-   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7276454247.mp3"
+   "length": "28 min",
+   "about": "AI attackers and AI defenders are now battling over the internet's vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era - and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart welcomes shopping agents, and Meta turns to new stock to fund its AI buildout.",
+   "why": "Attackers and defenders are fighting over a massive PHP exploit at machine speed; headlines include Anthropic's new Claude Duet and Walmart opening the door to shopping agents.",
+   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127912717/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F434765371-44100-2-ba24a88164185.mp3"
   },
   {
-   "show": "Invest Like the Best",
-   "title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI",
-   "date": "Tue, Oct 20, 2026",
-   "length": "57 min",
-   "about": "My guest today is Christina Cacioppo, founder and CEO of Vanta, which helps more than 16,000 companies manage security and compliance. Five years after our first conversation, we discuss how Vanta became a category leader, what it takes to reinvent a successful software business in the age of AI, and why Christina is betting on agents to do the work rather than simply assist users. We also explore the changing economics of software, the war for exceptional talent, AI's impact on cybersecurity, and what it takes to build an enduring company in Silicon Valley's rapidly changing environment.",
-   "why": "Discovery pick — Colossus's investor interview show, new to the list: Vanta CEO Christina Cacioppo on rebuilding a 16,000-customer compliance company agent-first, eating the cost of AI, and outcome pricing.",
-   "page": "https://colossus.com/episode/becoming-a-category-winner/",
-   "audio": "https://traffic.megaphone.fm/CLS1049065818.mp3"
+   "show": "TWIML AI Podcast",
+   "title": "Airbnb Is Building a ‘Company Brain’ for AI Agents with Ahmad Al-Dahle - #781",
+   "date": "Wed, Oct 21, 2026",
+   "length": "52 min",
+   "about": "AI agents need the institutional knowledge experienced employees rely on: why a system works a certain way, which policies apply, and what never made it into the documentation. Capturing that knowledge is hard; keeping it useful may be harder. Airbnb CTO Ahmad Al-Dahle shares how his team is building Project Everest, a 'company brain' that captures knowledge from employees' workflows for AI agents. They explore stale information and context poisoning, why too much context can backfire, how the team evaluates whether shared knowledge improves engineering work, and measuring AI productivity beyond token usage and PR counts.",
+   "why": "Airbnb's CTO on Project Everest, the company brain feeding agents the undocumented know-how employees carry - and why too much context poisons it.",
+   "page": "https://twimlai.com/podcast/twimlai/airbnb-building-company-brain-ai-agents",
+   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8883000255.mp3"
+  },
+  {
+   "show": "The Neuron",
+   "title": "Can Living Neurons Make AI 5x Faster?",
+   "date": "Wed, Oct 21, 2026",
+   "length": "46 min",
+   "about": "Neurosurgeon-scientists Alex Ksendzovsky and Jon Pomeraniec explain how The Biological Computing Company uses living neurons as a research platform for AI. Their team grows roughly 150,000 cells on a 4,096-electrode array, sends in patterns such as handwritten digits, records how the neurons respond, and models useful computational behaviors in software. They say those neuron-inspired techniques are already helping GPU-based video-generation systems run about 5x faster with roughly 80% lower inference cost, while their longer-term work explores robots, world models, and real-time biological compute.",
+   "why": "Discovery pick — The Neuron is a daily AI explainer show new to this list: two neurosurgeon-scientists growing 150,000 living neurons on an electrode array, claiming 5x faster video generation at 80% lower inference cost.",
+   "page": "https://podcasters.spotify.com/pod/show/the-neuron/episodes/Can-Living-Neurons-Make-AI-5x-Faster-e3qrt9k",
+   "audio": "https://anchor.fm/s/f51d3fd0/podcast/play/127841012/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-21%2F434669045-44100-2-de76a46d9807e.mp3"
+  },
+  {
+   "show": "Science Friday",
+   "title": "Kazuo Ishiguro on emotional truth in sci-fi and in our AI reality",
+   "date": "Fri, Oct 23, 2026",
+   "length": "25 min",
+   "about": "The movie 'Klara and the Sun,' in theaters now, is based on the 2021 novel of the same name by Kazuo Ishiguro. The story is set in the future and is narrated by Klara, a robotic 'Artificial Friend,' whose job is to be a companion to a sick teenage girl. In the 5 years since the release of the novel, the AI landscape has changed profoundly. Ishiguro talks about the rapid evolution of artificial intelligence, the intersection of art and science, and his hopes - and fears - for the future of this tech.",
+   "why": "Discovery pick — Science Friday is the long-running public-radio science show, new to this list: Nobel laureate Kazuo Ishiguro on what 'Klara and the Sun' got right about AI companions, five years and one AI boom later.",
+   "page": "https://www.wnycstudios.org/podcasts/science-friday",
+   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/ac8e2039-dfef-4938-b66a-c2f58f4b7599/episodes/292e8786-335f-4e9c-9e63-1847dca1ae03/audio/128/default.mp3?aid=rss_feed&awCollectionId=ac8e2039-dfef-4938-b66a-c2f58f4b7599&awEpisodeId=292e8786-335f-4e9c-9e63-1847dca1ae03&feed=h18ZIZD_"
   }
  ]
 }
