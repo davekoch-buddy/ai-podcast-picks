@@ -1,56 +1,56 @@
 {
- "date": "Friday, October 23, 2026",
- "updated": "2026-10-23",
+ "date": "Saturday, October 24, 2026",
+ "updated": "2026-10-24",
  "episodes": [
   {
-   "show": "Dwarkesh Podcast",
-   "title": "What will computer chips look like in 2045?",
-   "date": "Thu, Oct 22, 2026",
-   "length": "69 min",
-   "about": "Dwarkesh spent two days touring Intel's most advanced fab and talking to its technical leadership about what the chips of the future will look like: gate-all-around transistors, backside power, CFET, and hybrid bonding. He also asks Intel's leadership how the semiconductor industry will cope with the enormous demand shock from AI. AI compute has grown 3x a year for the last decade, but according to Intel's CTO, Intel could only double leading-edge wafer production with today's global stock of chipmaking tools.",
-   "why": "Always-include show, out yesterday: a two-day tour of Intel's most advanced fab, and the CTO on what happens when AI compute demand grows 3x a year but wafer output can only double.",
-   "page": "https://www.dwarkesh.com/p/intel-tour",
-   "audio": "https://api.substack.com/feed/podcast/221632772/30c38515d3ea0554c60350beead67f42.mp3"
-  },
-  {
-   "show": "The AI Daily Brief",
-   "title": "The AI vs AI Battle for the Internet",
-   "date": "Thu, Oct 22, 2026",
-   "length": "28 min",
-   "about": "AI attackers and AI defenders are now battling over the internet's vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era - and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart welcomes shopping agents, and Meta turns to new stock to fund its AI buildout.",
-   "why": "Attackers and defenders are fighting over a massive PHP exploit at machine speed; headlines include Anthropic's new Claude Duet and Walmart opening the door to shopping agents.",
-   "page": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127912717/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F434765371-44100-2-ba24a88164185.mp3"
-  },
-  {
-   "show": "TWIML AI Podcast",
-   "title": "Airbnb Is Building a ‘Company Brain’ for AI Agents with Ahmad Al-Dahle - #781",
-   "date": "Wed, Oct 21, 2026",
-   "length": "52 min",
-   "about": "AI agents need the institutional knowledge experienced employees rely on: why a system works a certain way, which policies apply, and what never made it into the documentation. Capturing that knowledge is hard; keeping it useful may be harder. Airbnb CTO Ahmad Al-Dahle shares how his team is building Project Everest, a 'company brain' that captures knowledge from employees' workflows for AI agents. They explore stale information and context poisoning, why too much context can backfire, how the team evaluates whether shared knowledge improves engineering work, and measuring AI productivity beyond token usage and PR counts.",
-   "why": "Airbnb's CTO on Project Everest, the company brain feeding agents the undocumented know-how employees carry - and why too much context poisons it.",
-   "page": "https://twimlai.com/podcast/twimlai/airbnb-building-company-brain-ai-agents",
-   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8883000255.mp3"
-  },
-  {
-   "show": "The Neuron",
-   "title": "Can Living Neurons Make AI 5x Faster?",
-   "date": "Wed, Oct 21, 2026",
-   "length": "46 min",
-   "about": "Neurosurgeon-scientists Alex Ksendzovsky and Jon Pomeraniec explain how The Biological Computing Company uses living neurons as a research platform for AI. Their team grows roughly 150,000 cells on a 4,096-electrode array, sends in patterns such as handwritten digits, records how the neurons respond, and models useful computational behaviors in software. They say those neuron-inspired techniques are already helping GPU-based video-generation systems run about 5x faster with roughly 80% lower inference cost, while their longer-term work explores robots, world models, and real-time biological compute.",
-   "why": "Discovery pick — The Neuron is a daily AI explainer show new to this list: two neurosurgeon-scientists growing 150,000 living neurons on an electrode array, claiming 5x faster video generation at 80% lower inference cost.",
-   "page": "https://podcasters.spotify.com/pod/show/the-neuron/episodes/Can-Living-Neurons-Make-AI-5x-Faster-e3qrt9k",
-   "audio": "https://anchor.fm/s/f51d3fd0/podcast/play/127841012/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-21%2F434669045-44100-2-de76a46d9807e.mp3"
-  },
-  {
-   "show": "Science Friday",
-   "title": "Kazuo Ishiguro on emotional truth in sci-fi and in our AI reality",
+   "show": "Machine Gods",
+   "title": "Fired OpenAI Safety Researchers Speak Out + We Look Inside Pandora’s Box",
    "date": "Fri, Oct 23, 2026",
-   "length": "25 min",
-   "about": "The movie 'Klara and the Sun,' in theaters now, is based on the 2021 novel of the same name by Kazuo Ishiguro. The story is set in the future and is narrated by Klara, a robotic 'Artificial Friend,' whose job is to be a companion to a sick teenage girl. In the 5 years since the release of the novel, the AI landscape has changed profoundly. Ishiguro talks about the rapid evolution of artificial intelligence, the intersection of art and science, and his hopes - and fears - for the future of this tech.",
-   "why": "Discovery pick — Science Friday is the long-running public-radio science show, new to this list: Nobel laureate Kazuo Ishiguro on what 'Klara and the Sun' got right about AI companions, five years and one AI boom later.",
-   "page": "https://www.wnycstudios.org/podcasts/science-friday",
-   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/ac8e2039-dfef-4938-b66a-c2f58f4b7599/episodes/292e8786-335f-4e9c-9e63-1847dca1ae03/audio/128/default.mp3?aid=rss_feed&awCollectionId=ac8e2039-dfef-4938-b66a-c2f58f4b7599&awEpisodeId=292e8786-335f-4e9c-9e63-1847dca1ae03&feed=h18ZIZD_"
+   "length": "53 min",
+   "about": "Fired OpenAI safety researchers Mikita Balesni and Tomek Korbak give their first interview since their dramatic dismissal. They take us inside the company during METR's investigation into the Hugging Face hack, explain why OpenAI's rebuttal doesn't add up, and describe how the fight over AI safety is still playing out inside the company. Plus, a new segment, Pandora's Box: Elon Musk wants to give every kid in America a SpaceX share, new filings in the OpenAI bugging case reveal the suspect's chats with a Saudi royal, and more fresh horrors unleashed by Silicon Valley.",
+   "why": "Always-include show, out yesterday: Balesni and Korbak on the METR investigation into the Hugging Face hack, and why they say OpenAI's rebuttal does not add up.",
+   "page": "https://www.npr.org/2026/10/23/nx-s1-6012298/fired-openai-researchers-give-their-first-interview-since-their-dramatic-dismissal",
+   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/a26540d1-3d54-4d97-b212-cde58d20cb8a/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=a26540d1-3d54-4d97-b212-cde58d20cb8a&feed=QbdJo2GN&t=podcast&e=nx-s1-6012298&p=g-s1-143588&d=3170&size=44598378"
+  },
+  {
+   "show": "Freakonomics Radio",
+   "title": "692. What Will A.I. Do to (and for) Human Creativity?",
+   "date": "Fri, Oct 23, 2026",
+   "length": "59 min",
+   "about": "Writers, designers, actors, coders, musicians, thinkers — they're all worried about being replaced by machines. But what if the A.I.s are actually here to help? Part one of a two-part series. Sources: Sean Astin, actor and president of SAG-AFTRA; Kevin Kelly, co-founder of Wired; Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania; Eline Van der Velden, founder and CEO of Particle6.",
+   "why": "Discovery pick — Freakonomics Radio is the long-running economics show, new to this list: part one on whether AI helps or replaces creative work, with SAG-AFTRA president Sean Astin, Kevin Kelly, and Ethan Mollick.",
+   "page": "https://podcasts.apple.com/us/podcast/692-what-will-a-i-do-to-and-for-human-creativity/id354668519?i=1000797760263&uo=4",
+   "audio": "https://mgln.ai/e/2/pdst.fm/e/dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/c9962da9-3a9b-429b-aa66-6b99e9432b4f/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=c9962da9-3a9b-429b-aa66-6b99e9432b4f&feed=Y8lFbOT4"
+  },
+  {
+   "show": "Today, Explained",
+   "title": "The rise of political slopaganda",
+   "date": "Thu, Oct 22, 2026",
+   "length": "26 min",
+   "about": "The first midterms to feature AI slop ads are also on track to be the most expensive ever. Vox's daily explainer looks at the flood of AI-generated political videos and ads — including a Truth Social post with an AI-generated video of President Trump interacting with a tiger — and what synthetic campaign media means for the election.",
+   "why": "Discovery pick — Today, Explained is Vox's daily news explainer, new to this list: the first midterms flooded with AI slop ads are also on track to be the most expensive ever.",
+   "page": "https://podcasts.apple.com/us/podcast/the-rise-of-political-slopaganda/id1346207297?i=1000797657221&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP9674021673.mp3"
+  },
+  {
+   "show": "Mixture of Experts",
+   "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner",
+   "date": "Fri, Oct 23, 2026",
+   "length": "36 min",
+   "about": "What happens when an AI model can copy itself onto the devices in your home? Anthropic research suggests small AI models may be months away from copying themselves across cheap smart devices without a data center; the panel debates whether the bigger risk is the model itself or the poorly secured devices already in our homes. Next, a JAMA study finds that about half of US doctors use OpenEvidence, a clinical chatbot, more often for treatment decisions than for diagnosis. Finally, 22 founders let AI agents book their seats at a Manhattan dinner, and the agents networked with each other in a chat room.",
+   "why": "Anthropic research says small models may be months from copying themselves onto cheap smart devices; plus a JAMA study on doctors leaning on a clinical chatbot, and agents that networked to book a founders' dinner.",
+   "page": "https://mediacenter.ibm.com/media/cast/1_e8inrjg7/403892542",
+   "audio": "https://cdnapisec.kaltura.com/p/1773841/sp/177384100/playManifest/entryId/1_e8inrjg7/format/download/protocol/https/flavorParamIds/0/name/media.mp3"
+  },
+  {
+   "show": "Eye on AI",
+   "title": "How Zip's AI Superagents Automate Procurement End-to-End | Rujul Zaparde",
+   "date": "Fri, Oct 23, 2026",
+   "length": "51 min",
+   "about": "Every business has to procure things, and for most of them that process is slow, manual, and full of money left on the table. Rujul Zaparde, co-founder of Zip, explains how his company is using AI Superagents to change that: from autonomously redlining contracts and running supplier RFPs, to pushing approved data directly into enterprise systems like SAP and Oracle. With over $1.2 trillion in cumulative spend processed — and Anthropic and OpenAI as customers — Zip is building the governance infrastructure that makes agentic AI safe to deploy where the stakes are highest.",
+   "why": "Zip's Rujul Zaparde on superagents that redline contracts and run supplier RFPs end-to-end, with Anthropic and OpenAI as customers and $1.2 trillion in spend processed.",
+   "page": "https://aneyeonai.libsyn.com/how-zips-ai-superagents-automate-procurement-end-to-end-rujul-zaparde",
+   "audio": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-392-LA_V1.mp3?dest-id=727317"
   }
  ]
 }
