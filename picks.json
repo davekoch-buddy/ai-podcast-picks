@@ -1,56 +1,56 @@
 {
- "date": "Thursday, October 29, 2026",
- "updated": "2026-10-29",
+ "date": "Friday, October 30, 2026",
+ "updated": "2026-10-30",
  "episodes": [
   {
-   "show": "Machine Gods",
-   "title": "Inside Anthropic’s IPO + How AI Agents Spy on Your Messages",
-   "date": "Wed, Oct 28, 2026",
-   "length": "54 min",
-   "about": "Anthropic, the AI company behind Claude, has released the most detailed account of its business yet, as it prepares for its IPO. We break down the biggest surprises in its S-1 filing and explain what the numbers tell us about the AI bubble. Then, Signal president Meredith Whittaker joins us in the studio to discuss the existential threat facing private messaging and end-to-end encryption. Between governments demanding backdoor access to private conversations and AI agents that can see everything on our devices, she warns, “we are looking at the elimination of the possibility to provide privacy.”",
-   "why": "Always-include show: Roose and Newton break down Anthropic's S-1 surprises, then Signal's Meredith Whittaker warns that agents able to see everything on our devices could end private messaging.",
-   "page": "https://podcasts.apple.com/us/podcast/inside-anthropics-ipo-how-ai-agents-spy-on-your-messages/id6812430636?i=1000798508877&uo=4",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/7e83a421-99d6-480a-9ccb-dfb6696e23c7/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=7e83a421-99d6-480a-9ccb-dfb6696e23c7&feed=QbdJo2GN&t=podcast&e=nx-s1-6019724&p=g-s1-143588&d=3233&size=51737539"
-  },
-  {
    "show": "The AI Daily Brief",
-   "title": "AI Can Now Create Worlds You Can Change in Real Time",
-   "date": "Wed, Oct 28, 2026",
-   "length": "29 min",
-   "about": "Google’s Genie 4 brings AI-generated worlds closer to reality, with live prompting, native audio, and more realistic interactions. NLW explores what this means for gaming, robotics, and the path from impressive demos to useful tools. Plus: Anthropic’s one-person biotech acquisition and the debate over access to OpenAI’s scientific breakthroughs.",
-   "why": "Google's Genie 4 generates worlds you can change live, with native audio; NLW works through what that means for gaming and robotics, plus Anthropic's one-person biotech acquisition.",
-   "page": "https://podcasts.apple.com/us/podcast/ai-can-now-create-worlds-you-can-change-in-real-time/id1680633614?i=1000798588735&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128303802/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435269554-44100-2-27523823ae90a.mp3"
-  },
-  {
-   "show": "Science Friday",
-   "title": "Terence Tao on how AI math solutions miss the point",
-   "date": "Wed, Oct 28, 2026",
-   "length": "23 min",
-   "about": "In a matter of months, AI has transformed the field of mathematics. In September, OpenAI claimed that an AI model solved the million-dollar Navier-Stokes equation. Then, a few weeks later, OpenAI shared results for more than 350 previously unsolved math problems. The news has prompted an existential conversation among mathematicians: In an age of AI, what’s the role of the human mathematician? It’s a question that Terence Tao, largely considered one of the greatest mathematicians of this generation, is reckoning with right now. He speaks with Flora about how AI has upended the mathematics world, and why the real value of mathematics lies in the journey, not just the answer.",
-   "why": "Discovery pick — Science Friday is the long-running public-radio science show: Terence Tao explains why AI claiming Navier-Stokes and solving 350 unsolved problems still misses what math is for.",
-   "page": "https://podcasts.apple.com/us/podcast/terence-tao-on-how-ai-math-solutions-miss-the-point/id73329284?i=1000798499937&uo=4",
-   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/ac8e2039-dfef-4938-b66a-c2f58f4b7599/episodes/6d94c0d4-d820-4f83-8163-9be9e26d64ab/audio/128/default.mp3?aid=rss_feed&awCollectionId=ac8e2039-dfef-4938-b66a-c2f58f4b7599&awEpisodeId=6d94c0d4-d820-4f83-8163-9be9e26d64ab&feed=h18ZIZD_"
-  },
-  {
-   "show": "TWIML AI Podcast",
-   "title": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
-   "date": "Wed, Oct 28, 2026",
-   "length": "54 min",
-   "about": "AI agents are becoming accessible to everyone, raising the bar for developers building the next generation of agent products. When capable, general-purpose agents are available out of the box, differentiation increasingly comes down to the architectural decisions and specialized experiences that make an agent uniquely valuable. In this episode, Dan Jeffries, creator of Nautilo, joins us to discuss what he's learned building a platform for personal and collaborative AI agents. We explore his approach to persistent memory, coordinating work across people and agents, managing private context, and designing deterministic tools that complement LLM capabilities.",
-   "why": "Dan Jeffries, creator of Nautilo, on what actually differentiates an agent product now: persistent memory, private context, and deterministic tools alongside the model.",
-   "page": "https://podcasts.apple.com/us/podcast/the-brutal-reality-of-building-agentic-products/id1116303051?i=1000798539029&uo=4",
-   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN7036958411.mp3"
-  },
-  {
-   "show": "Your Undivided Attention",
-   "title": "Why Silicon Valley Wants to Leave Humanity Behind",
+   "title": "The AI Rankings Just Got Reshuffled",
    "date": "Thu, Oct 29, 2026",
-   "length": "61 min",
-   "about": "Behind the AI race, there's a philosophy with an intellectual lineage and a body of work that holds that human beings are a defective early draft, that the things that make us humans are bugs to be fixed, that this planet is expendable and we can move on to the next. And that the suffering of real people today is a rounding error against the value of a cosmic future. Broadly speaking, these ideas fit under the umbrella of transhumanism. You might hear it referred to as techno-optimism or accelerationism. Twenty years ago, these were the beliefs of an ideological fringe in Silicon Valley. Today, they are held by many of the people who build and govern the most powerful technology in human history.",
-   "why": "Discovery pick — Your Undivided Attention is the Center for Humane Technology's show, new here and out today: it traces the transhumanist ideas behind the AI race and argues for a pro-human alternative.",
-   "page": "https://podcasts.apple.com/us/podcast/why-silicon-valley-wants-to-leave-humanity-behind/id1460030305?i=1000798673656&uo=4",
-   "audio": "https://mgln.ai/e/1511/afp-955611-injected.calisto.simplecastaudio.com/1beb2301-b954-4718-ac31-006197b9bf1b/episodes/9d8380b3-340d-406a-8c96-351d9d9494c9/audio/128/default.mp3?aid=rss_feed&awCollectionId=1beb2301-b954-4718-ac31-006197b9bf1b&awEpisodeId=9d8380b3-340d-406a-8c96-351d9d9494c9&feed=rZ0cYk12"
+   "length": "27 min",
+   "about": "A major overhaul of AI’s most-watched benchmark is reshuffling the model rankings and revealing a wider gap between open and closed models. NLW examines what the new tests reveal about real-world capabilities—and how much those rankings should matter when choosing your AI tools. In the headlines: Google unveils Gemini 4 Carbon, Microsoft and Google report surging cloud revenue, and Nvidia faces broader antitrust scrutiny.",
+   "why": "A benchmark overhaul just reshuffled the model rankings and widened the open-vs-closed gap; NLW works through what the new tests actually say about real-world capability, plus Gemini 4 Carbon in the headlines.",
+   "page": "https://podcasts.apple.com/us/podcast/the-ai-rankings-just-got-reshuffled/id1680633614?i=1000798766806&uo=4",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128373712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-29%2F435359682-44100-2-ea262663c4827.mp3"
+  },
+  {
+   "show": "No Priors",
+   "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+   "date": "Thu, Oct 29, 2026",
+   "length": "38 min",
+   "about": "What happens when you put code-generation agents in the hands of enterprise IT teams? With Serval, you get a system where it's easy for everyone to be a builder. Sarah Guo and Elad Gil sit down with Serval co-founder and CEO Jake Stauch to analyze his company’s direct challenge to ServiceNow as the enterprise automation and service management system of record. Jake explains that by building an AI platform for enterprise IT departments with Serval, users can safely build while still safeguarding permissions by strict deterministic approvals and an audit trail.",
+   "why": "Serval gives enterprise IT teams coding agents to build their own automations, taking on ServiceNow with deterministic approvals and an audit trail as the guardrails.",
+   "page": "https://podcasts.apple.com/us/podcast/taking-on-servicenow-coding-agents-the-rest-of-us/id1668002688?i=1000798684005&uo=4",
+   "audio": "https://traffic.megaphone.fm/PDP1665700091.mp3"
+  },
+  {
+   "show": "The a16z Show",
+   "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
+   "date": "Fri, Oct 30, 2026",
+   "length": "53 min",
+   "about": "What happens when AI makes legal work cheap enough to take cases lawyers couldn't afford to touch before? Eve CEO Jay Madheswaran argues that AI won't just cut costs for law firms. It could expand access to legal representation by making an entirely new class of cases economically viable. Jay joins a16z General Partner Alex Rampell to explain how Eve is automating plaintiff law from the first client call through settlement, and why some firms are already using it to increase the number of clients each attorney can manage from roughly 100 to 500.",
+   "why": "Out today: Eve automates plaintiff law from first client call to settlement, and firms using it are taking each attorney from roughly 100 clients to 500 — the argument is cheaper cases, not just cheaper lawyers.",
+   "page": "https://podcasts.apple.com/us/podcast/why-ai-could-turn-small-law-firms-into-billion-dollar/id842818711?i=1000798872502&uo=4",
+   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/de88968f-40b2-409c-befe-1d337a8ca6a9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=de88968f-40b2-409c-befe-1d337a8ca6a9&feed=JGE3yC0V"
+  },
+  {
+   "show": "Freakonomics Radio",
+   "title": "693. What’s Our Job as Humans Anymore?",
+   "date": "Fri, Oct 30, 2026",
+   "length": "57 min",
+   "about": "It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.)",
+   "why": "Part two of the AI-and-creativity series, out today: Dubner interviews A.I. performer Tilly Norwood, with SAG-AFTRA president Sean Astin and Ethan Mollick among the sources, on whether performers are as replaceable as feared.",
+   "page": "https://podcasts.apple.com/us/podcast/693-whats-our-job-as-humans-anymore/id354668519?i=1000798872339&uo=4",
+   "audio": "https://mgln.ai/e/2/pdst.fm/e/dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/a060192e-2409-4068-9b2d-9736e3c2eaac/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=a060192e-2409-4068-9b2d-9736e3c2eaac&feed=Y8lFbOT4"
+  },
+  {
+   "show": "Channels with Peter Kafka",
+   "title": "You Can't Escape AI. Here's How to Live With It.",
+   "date": "Wed, Oct 28, 2026",
+   "length": "40 min",
+   "about": "AI is already doing much more than most of us realize. So what happens when it starts doing more of your work—and when it starts deciding what work you should hand over? I talk to Wharton professor Ethan Mollick, whose new book is Co-Existence, about the real AI update: why today’s models are radically more capable than the chatbots people remember; how to think about your job and your kids’ careers; why AI may break the system that trains young workers; and why agents that can cancel subscriptions, read your email, and take action on your behalf are both useful and unnerving.",
+   "why": "Discovery pick — Channels is Peter Kafka's show on media, tech, and culture, new here: Ethan Mollick on his new book Co-Existence, the training pipeline AI may break for young workers, and agents that cancel subscriptions and read your email for you.",
+   "page": "https://podcasts.apple.com/us/podcast/you-cant-escape-ai-heres-how-to-live-with-it/id1080467174?i=1000798499827&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP2976533437.mp3"
   }
  ]
 }
