@@ -1,56 +1,56 @@
 {
- "date": "Monday, November 2, 2026",
- "updated": "2026-11-02",
+ "date": "Tuesday, November 3, 2026",
+ "updated": "2026-11-03",
  "episodes": [
   {
-   "show": "Marketplace Tech",
-   "title": "What it means when AI helps solve complex math problems",
-   "date": "Mon, Nov 2, 2026",
-   "length": "9 min",
-   "about": "In September, OpenAI said that its models had solved one of math's famous Millennium Prize problems. Then, the lab dropped more than 700 papers tackling another 400 complex problems with more breakthroughs to come. These developments have caused something of an existential crisis in the math world. But Alex Kontorovich, a professor of math at Rutgers University, says they're a gift.",
-   "why": "Out today: Rutgers mathematician Alex Kontorovich on why OpenAI's run of solved problems - a Millennium Prize problem, then 700-plus papers on 400 more - is a gift to math, not just a crisis for it.",
-   "page": "https://podcasts.apple.com/us/podcast/what-it-means-when-ai-helps-solve-complex-math-problems/id73330855?i=1000799391132&uo=4",
-   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/tech_report/2026/11/02/tech_20261102_1102_MP_TECH_pod_128.mp3?awCollectionId=mkp-MKPtech&awEpisodeId=01M622H6AE1GW1X16ZBG4R9V6Q"
+   "show": "This Week in Startups",
+   "title": "Odyssey CEO Oliver Cameron is 90% sure we live in a simulation | E2358",
+   "date": "Tue, Nov 3, 2026",
+   "length": "84 min",
+   "about": "Odyssey co-founder and CEO Oliver Cameron builds simulated worlds for a living. His team dropped a simulated fruit fly brain into an AI world that is being rendered and created in real time, and 6.2 million people have watched the virtual fly navigate an imaginary world on X. The conversation digs into how world models learn about physics, gravity, and causality just by watching videos, what makes Odyssey-3 an ideal training ground for AI agents, and why a world model only renders the parts of the world that are currently being experienced.",
+   "why": "Discovery pick — This Week in Startups is Jason Calacanis's startup interview show, new here: Odyssey put a simulated fruit fly brain inside a world model rendered in real time, and Cameron explains how models learn physics and causality from watching video.",
+   "page": "https://podcasts.apple.com/us/podcast/odyssey-ceo-oliver-cameron-is-90-sure-we-live-in-a/id315114957?i=1000799515301&uo=4",
+   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/LTANT2246865513.mp3"
+  },
+  {
+   "show": "WSJ Tech News Briefing",
+   "title": "The $1,000 Hack That Turns Everyday Cars Hands-Free",
+   "date": "Tue, Nov 3, 2026",
+   "length": "12 min",
+   "about": "Aftermarket devices promise to turn some recent model cars into hands-free vehicles. WSJ reporter Christopher Otts explains how these kits work, what it's like to ride with one, and the growing safety, regulatory, and industry questions surrounding third-party driver-assistance tech. Julie Chang hosts.",
+   "why": "Out today, 12 minutes: a $1,000 aftermarket kit turns an ordinary recent car hands-free, and the WSJ rode with one and pressed on the safety and regulatory questions that follow.",
+   "page": "https://podcasts.apple.com/us/podcast/the-%241-000-hack-that-turns-everyday-cars-hands-free/id74844126?i=1000799568122&uo=4",
+   "audio": "https://dowjones.simplecastaudio.com/ad7cb3e1-19c4-4670-984f-a03f333022e4/episodes/e149c34c-0337-49b5-b724-8959ffa3795b/audio/128/default.mp3?aid=rss_feed&awCollectionId=ad7cb3e1-19c4-4670-984f-a03f333022e4&awEpisodeId=e149c34c-0337-49b5-b724-8959ffa3795b&feed=ui_HbBma"
   },
   {
    "show": "The AI Daily Brief",
-   "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
-   "date": "Sun, Nov 1, 2026",
-   "length": "27 min",
-   "about": "What if abundant intelligence makes human ambition expand rather than human relevance disappear? NLW explores Venkatesh Rao's “Cognitive Mercantilism,” which uses the history of capitalism to challenge assumptions about AI and our intellectual future. From the agricultural revolution to today's AI agents, the episode examines how cheaper intelligence could unlock new desires, new work, and possibilities we haven't yet imagined.",
-   "why": "Venkatesh Rao's 'Cognitive Mercantilism' argues cheaper intelligence expands what people want and attempt, traced from the agricultural revolution to today's agents.",
-   "page": "https://podcasts.apple.com/us/podcast/ai-wont-make-our-minds-useless-according-to-400-years/id1680633614?i=1000799216533&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128554822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F435584507-44100-2-12cd313a5700b.mp3"
+   "title": "How to Deslopify Your AI",
+   "date": "Mon, Nov 2, 2026",
+   "length": "43 min",
+   "about": "AI slop shifts the burden of thinking from the person producing the work to whoever receives it. In this Operators' Cut, Nufar Gaspar joins NLW to share practical habits for creating better work with AI, from developing your own point of view and teaching models your taste to building effective review checkpoints. NLW also breaks down how he uses AI to produce How We Got Here while keeping control of its perspective and narrative.",
+   "why": "NLW and Nufar Gaspar on deslopifying: slop pushes the thinking onto whoever receives the work, and the counter is a point of view of your own, models taught your taste, and real review checkpoints.",
+   "page": "https://podcasts.apple.com/us/podcast/how-to-deslopify-your-ai/id1680633614?i=1000799393861&uo=4",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128609556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435656622-44100-2-b076fe7f9adb1.mp3"
   },
   {
-   "show": "The Daily AI Show",
-   "title": "The Disappearing Amateur Conundrum",
-   "date": "Sat, Oct 31, 2026",
-   "length": "29 min",
-   "about": "For generations, becoming good at something meant spending a considerable amount of time being bad at it. A teenager learning guitar struggled through chords before playing a complete song. An aspiring photographer took hundreds of disappointing pictures before developing an eye for composition. Someone interested in writing spent years learning how to turn scattered thoughts into compelling stories. Most people never became professionals, and that was never the point. AI is changing this relationship between interest, effort, and accomplishment: someone with little musical training now has access to tools that produce sophisticated compositions, an aspiring filmmaker creates scenes without mastering cameras, lighting, or editing software, and a person with no programming experience builds a functional application by describing what they want.",
-   "why": "AI tools now let beginners skip the years of being bad at guitar, photography, or writing - and this asks what is lost when the amateur stage disappears.",
-   "page": "https://podcasts.apple.com/us/podcast/the-disappearing-amateur-conundrum/id1707077660?i=1000799087810&uo=4",
-   "audio": "https://anchor.fm/s/e71b9e54/podcast/play/128426774/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F5ff21b1a-4e3f-8b5c-69a4-837c5db9f7a1.mp3"
+   "show": "The a16z Show",
+   "title": "The Robots Already Working in American Factories | Tutor Intelligence",
+   "date": "Mon, Nov 2, 2026",
+   "length": "46 min",
+   "about": "What does it take to build robots that can actually work in factories and warehouses? Tutor Intelligence CEO Josh Gruenstein argues robotics is a systems problem spanning AI, hardware, manufacturing, and the work itself. Josh joins a16z General Partners Martin Casado and Raghu Raghuram to explain Tutor's approach: deploy robots into real businesses, use human 'tutors' when needed, and turn that work into training data that makes the robots more capable. They discuss Tutor's 100-robot data factory, robots starting at roughly $16 an hour, advances in spatial reasoning, and what flexible robotic labor could mean for American manufacturing and the physical economy.",
+   "why": "Tutor Intelligence already runs 100 robots in real factories at roughly $16 an hour: humans tutor them through the hard parts, and every shift becomes training data.",
+   "page": "https://podcasts.apple.com/us/podcast/the-robots-already-working-in-american-factories/id842818711?i=1000799433539&uo=4",
+   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/9130a518-123f-457b-8d4e-90650dff71d0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=9130a518-123f-457b-8d4e-90650dff71d0&feed=JGE3yC0V"
   },
   {
-   "show": "Click Here",
-   "title": "AI chatbots can make election fakes. Can they spot them?",
-   "date": "Fri, Oct 30, 2026",
-   "length": "24 min",
-   "about": "You used to need a government-backed operation to spread election disinformation. Now a chatbot might do. Larry Norden of the Brennan Center put the major AI chatbots to the test: Could they create election fakes? Debunk them? Even recognize their own handiwork? The answers were not all reassuring.",
-   "why": "Discovery pick — Click Here is Recorded Future News' cybersecurity show, new here: the Brennan Center tested whether the big chatbots can create election fakes, debunk them, and recognize their own work - tested just before Election Day.",
-   "page": "https://podcasts.apple.com/us/podcast/ai-chatbots-can-make-election-fakes-can-they-spot-them/id1225077306?i=1000798847215&uo=4",
-   "audio": "https://tracking.swap.fm/track/sblTq32fyWAjsHzze2LG/mgln.ai/e/48/dts.podtrac.com/redirect.mp3/dovetail.prxu.org/8376/ffc3e6f0-9b8a-46f1-b744-c61c8c51730d/PODCAST_R43SEGB_Brennan_Center_20261030.mp3"
-  },
-  {
-   "show": "Interconnects",
-   "title": "Was I wrong about open models & cyber risks?",
-   "date": "Fri, Oct 30, 2026",
-   "length": "10 min",
-   "about": "Last week coined the term “Black October” after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize. Nathan Lambert asks whether the Binance security incident changes that picture, and argues we are living through an exponential rise in vulnerabilities that will take a long time to level off, even as the behind-the-scenes work of patching the internet accelerates.",
-   "why": "Discovery pick — Interconnects is Nathan Lambert's AI research analysis show, new here: after Black October's vulnerability flood, he re-examines whether he was wrong about the cyber risks of open models, in 10 minutes.",
-   "page": "https://podcasts.apple.com/us/podcast/was-i-wrong-about-open-models-cyber-risks/id1719552353?i=1000799296755&uo=4",
-   "audio": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/claritaspod.com/measure/api.substack.com/feed/podcast/222715088/4f85e93f3a0b4991d5d73a09590320f8.mp3"
+   "show": "Latent Space",
+   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+   "date": "Mon, Nov 2, 2026",
+   "length": "67 min",
+   "about": "Legora can't read a single trace of what its agent does for a lawyer. The data belongs to the law firm's clients. How do you build and test an agent when you can't see its work? Jacob Lauritzen is the CTO of Legora.",
+   "why": "The hard version of building agents: Legora's legal agents work on client data the company's own engineers are never allowed to see, so Lauritzen has to build and test them without reading a single trace.",
+   "page": "https://podcasts.apple.com/us/podcast/building-legal-agents-when-you-cant-see-the-data/id1674008350?i=1000799488954&uo=4",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3"
   }
  ]
 }
