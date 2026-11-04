@@ -1,56 +1,56 @@
 {
- "date": "Tuesday, November 3, 2026",
- "updated": "2026-11-03",
+ "date": "Wednesday, November 4, 2026",
+ "updated": "2026-11-04",
  "episodes": [
   {
-   "show": "This Week in Startups",
-   "title": "Odyssey CEO Oliver Cameron is 90% sure we live in a simulation | E2358",
-   "date": "Tue, Nov 3, 2026",
-   "length": "84 min",
-   "about": "Odyssey co-founder and CEO Oliver Cameron builds simulated worlds for a living. His team dropped a simulated fruit fly brain into an AI world that is being rendered and created in real time, and 6.2 million people have watched the virtual fly navigate an imaginary world on X. The conversation digs into how world models learn about physics, gravity, and causality just by watching videos, what makes Odyssey-3 an ideal training ground for AI agents, and why a world model only renders the parts of the world that are currently being experienced.",
-   "why": "Discovery pick — This Week in Startups is Jason Calacanis's startup interview show, new here: Odyssey put a simulated fruit fly brain inside a world model rendered in real time, and Cameron explains how models learn physics and causality from watching video.",
-   "page": "https://podcasts.apple.com/us/podcast/odyssey-ceo-oliver-cameron-is-90-sure-we-live-in-a/id315114957?i=1000799515301&uo=4",
-   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/LTANT2246865513.mp3"
-  },
-  {
-   "show": "WSJ Tech News Briefing",
-   "title": "The $1,000 Hack That Turns Everyday Cars Hands-Free",
-   "date": "Tue, Nov 3, 2026",
-   "length": "12 min",
-   "about": "Aftermarket devices promise to turn some recent model cars into hands-free vehicles. WSJ reporter Christopher Otts explains how these kits work, what it's like to ride with one, and the growing safety, regulatory, and industry questions surrounding third-party driver-assistance tech. Julie Chang hosts.",
-   "why": "Out today, 12 minutes: a $1,000 aftermarket kit turns an ordinary recent car hands-free, and the WSJ rode with one and pressed on the safety and regulatory questions that follow.",
-   "page": "https://podcasts.apple.com/us/podcast/the-%241-000-hack-that-turns-everyday-cars-hands-free/id74844126?i=1000799568122&uo=4",
-   "audio": "https://dowjones.simplecastaudio.com/ad7cb3e1-19c4-4670-984f-a03f333022e4/episodes/e149c34c-0337-49b5-b724-8959ffa3795b/audio/128/default.mp3?aid=rss_feed&awCollectionId=ad7cb3e1-19c4-4670-984f-a03f333022e4&awEpisodeId=e149c34c-0337-49b5-b724-8959ffa3795b&feed=ui_HbBma"
+   "show": "The a16z Show",
+   "title": "The New AI Agents That Shop, Plan, and Gossip",
+   "date": "Wed, Nov 4, 2026",
+   "length": "51 min",
+   "about": "Will we have one AI assistant that does everything, or an entire network of agents that know different parts of our lives? David Pawlan, creator of Assistant Benchmark, returns with Anish Acharya and Josh Elman to take stock of how quickly the agent landscape has changed. David has now tested more than 140 AI assistants, and they unpack what separates them, from memory and judgment to trust, shopping, and social experiences. They also explore what happens when agents start talking to each other, how they could create new kinds of social networks and serendipity, and why the most compelling agents may ultimately do more than save time.",
+   "why": "Out today: Pawlan has tested more than 140 AI assistants, and the useful split is not features but memory, judgment, and trust - plus what changes when agents start talking to each other instead of just to you.",
+   "page": "https://podcasts.apple.com/us/podcast/the-new-ai-agents-that-shop-plan-and-gossip/id842818711?i=1000799792673&uo=4",
+   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/304b6178-d2e4-4447-aae7-810df659e5e1/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=304b6178-d2e4-4447-aae7-810df659e5e1&feed=JGE3yC0V"
   },
   {
    "show": "The AI Daily Brief",
-   "title": "How to Deslopify Your AI",
-   "date": "Mon, Nov 2, 2026",
-   "length": "43 min",
-   "about": "AI slop shifts the burden of thinking from the person producing the work to whoever receives it. In this Operators' Cut, Nufar Gaspar joins NLW to share practical habits for creating better work with AI, from developing your own point of view and teaching models your taste to building effective review checkpoints. NLW also breaks down how he uses AI to produce How We Got Here while keeping control of its perspective and narrative.",
-   "why": "NLW and Nufar Gaspar on deslopifying: slop pushes the thinking onto whoever receives the work, and the counter is a point of view of your own, models taught your taste, and real review checkpoints.",
-   "page": "https://podcasts.apple.com/us/podcast/how-to-deslopify-your-ai/id1680633614?i=1000799393861&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128609556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435656622-44100-2-b076fe7f9adb1.mp3"
+   "title": "AI Lurches Toward Recursive Self-Improvement",
+   "date": "Tue, Nov 3, 2026",
+   "length": "27 min",
+   "about": "NLW's daily brief leads with recursive self-improvement: the accumulating signs that AI systems are starting to improve the process of building AI itself, and how close that loop is to closing. The episode works through the latest developments behind the claim and what a genuinely self-improving cycle would change about the pace of progress from here.",
+   "why": "The lead claim is the big one: AI is starting to improve the process of building AI. NLW lays out the freshest evidence for that loop closing, and how much of it is real yet.",
+   "page": "https://podcasts.apple.com/us/podcast/ai-lurches-toward-recursive-self-improvement/id1680633614?i=1000799662948&uo=4",
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128710740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F435791266-44100-2-59c5fdb59f162.mp3"
   },
   {
-   "show": "The a16z Show",
-   "title": "The Robots Already Working in American Factories | Tutor Intelligence",
-   "date": "Mon, Nov 2, 2026",
-   "length": "46 min",
-   "about": "What does it take to build robots that can actually work in factories and warehouses? Tutor Intelligence CEO Josh Gruenstein argues robotics is a systems problem spanning AI, hardware, manufacturing, and the work itself. Josh joins a16z General Partners Martin Casado and Raghu Raghuram to explain Tutor's approach: deploy robots into real businesses, use human 'tutors' when needed, and turn that work into training data that makes the robots more capable. They discuss Tutor's 100-robot data factory, robots starting at roughly $16 an hour, advances in spatial reasoning, and what flexible robotic labor could mean for American manufacturing and the physical economy.",
-   "why": "Tutor Intelligence already runs 100 robots in real factories at roughly $16 an hour: humans tutor them through the hard parts, and every shift becomes training data.",
-   "page": "https://podcasts.apple.com/us/podcast/the-robots-already-working-in-american-factories/id842818711?i=1000799433539&uo=4",
-   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/9130a518-123f-457b-8d4e-90650dff71d0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=9130a518-123f-457b-8d4e-90650dff71d0&feed=JGE3yC0V"
+   "show": "TWIML AI Podcast",
+   "title": "Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783",
+   "date": "Tue, Nov 3, 2026",
+   "length": "49 min",
+   "about": "AI can help scientists write code, analyze data, and draft papers. But can it generate the ideas that lead to new discoveries? Richard Socher, former chief scientist at Salesforce, founder of You.com, and co-founder of Recursive, joins to explore the move from AI assisting researchers to AI conducting research. Starting with AI improving AI, they examine what it takes to propose ideas, run experiments, and validate results, and how those capabilities could eventually accelerate discovery across biology, chemistry, and physics. The conversation covers Recursive's reported results in model training and GPU kernel optimization, why fast verification matters, and how reward hacking complicates the search for real improvements.",
+   "why": "Socher draws the line that matters: writing code and drafting papers is assistance, but proposing the idea, running the experiment, and validating the result is invention - and he argues AI is crossing from the first to the second.",
+   "page": "https://podcasts.apple.com/us/podcast/can-ai-invent-or-just-help-scientists-work-faster-with/id1116303051?i=1000799644897&uo=4",
+   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN7947684039.mp3"
   },
   {
-   "show": "Latent Space",
-   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-   "date": "Mon, Nov 2, 2026",
-   "length": "67 min",
-   "about": "Legora can't read a single trace of what its agent does for a lawyer. The data belongs to the law firm's clients. How do you build and test an agent when you can't see its work? Jacob Lauritzen is the CTO of Legora.",
-   "why": "The hard version of building agents: Legora's legal agents work on client data the company's own engineers are never allowed to see, so Lauritzen has to build and test them without reading a single trace.",
-   "page": "https://podcasts.apple.com/us/podcast/building-legal-agents-when-you-cant-see-the-data/id1674008350?i=1000799488954&uo=4",
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3"
+   "show": "The Vergecast",
+   "title": "Will data centers rock the vote?",
+   "date": "Tue, Nov 3, 2026",
+   "length": "36 min",
+   "about": "It's Election Day in the United States, and data centers have become a core issue in some of the country's most important midterm races. The Verge's Adi Robertson explains why people are uniting against data centers, why they've become a proxy for all kinds of other fights, and how this year's results might change the AI industry going forward.",
+   "why": "Election Day made data centers a ballot issue: Robertson explains why neighbors are uniting against them, what they have become a proxy for, and how the midterms could reshape the AI buildout.",
+   "page": "https://podcasts.apple.com/us/podcast/will-data-centers-rock-the-vote/id430333725?i=1000799664073&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP3694229362.mp3"
+  },
+  {
+   "show": "Short Wave",
+   "title": "AI is changing mathematics -- but not how you think",
+   "date": "Wed, Nov 4, 2026",
+   "length": "14 min",
+   "about": "Math has created some of humanity's oldest intellectual challenges, and AI is completely changing the game. This year AI solved one of math's most difficult problems. Since then, OpenAI has published hundreds of new math results. So is this the end for the people who've dedicated their careers to pushing forward math? NPR science correspondent Geoff Brumfel weighs the risks and rewards of AI's math takeover.",
+   "why": "Discovery pick — Short Wave is NPR's daily science show, new here: 14 minutes on AI solving one of math's hardest problems and publishing hundreds of new results since, and what that does to the mathematicians.",
+   "page": "https://podcasts.apple.com/us/podcast/ai-is-changing-mathematics-but-not-how-you-think/id1482575855?i=1000798774991&uo=4",
+   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510351/npr.simplecastaudio.com/72da6803-9aa4-4e2e-a973-3bc436f0e9fa/episodes/973df2af-52b7-47fb-bbd0-b48aa71b3372/audio/128/default.mp3?awCollectionId=72da6803-9aa4-4e2e-a973-3bc436f0e9fa&awEpisodeId=973df2af-52b7-47fb-bbd0-b48aa71b3372&feed=F0qJcgXZ&t=podcast&e=nx-s1-6010471&p=510351&d=833&size=13339254"
   }
  ]
 }
