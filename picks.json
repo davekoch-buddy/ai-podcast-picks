@@ -1,56 +1,56 @@
 {
- "date": "Thursday, November 5, 2026",
- "updated": "2026-11-05",
+ "date": "Friday, November 6, 2026",
+ "updated": "2026-11-06",
  "episodes": [
   {
-   "show": "Machine Gods",
-   "title": "Crypto’s Biggest Heist Ever + The Spy Who Loved Nvidia + Hacktober’s Unsolved Mysteries",
-   "date": "Wed, Nov 4, 2026",
-   "length": "48 min",
-   "about": "North Korea stole $6 billion from Binance in about 20 minutes, according to the FBI, making it the biggest crypto heist ever. Roose and Newton break down how the attackers got in, why investigators think the laundering may have been automated, how Binance covered the losses, and whether AI played a role. Then New York Times reporter Ana Swanson joins on Alice Huang, the Megaspeed executive U.S. officials believe was a Chinese spy who got close to Nvidia CEO Jensen Huang, and the loophole that lets Chinese companies rent banned Nvidia chips. Plus the unsolved Hacktober cases: who took down AO3, the internet's biggest fanfic archive, and who hacked supermarket freezers across Europe and cranked them to 122 degrees.",
-   "why": "The Nvidia segment carries the AI stakes: a suspected spy close to Jensen Huang, a White House that was briefed and did not act, and a rental loophole for banned chips - wrapped around a $6 billion heist the FBI says took 20 minutes.",
-   "page": "https://podcasts.apple.com/us/podcast/cryptos-biggest-heist-ever-the-spy-who-loved-nvidia/id6812430636?i=1000799801567&uo=4",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/63eba3f9-5197-4fec-8884-0dfee33f12f7/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=63eba3f9-5197-4fec-8884-0dfee33f12f7&feed=QbdJo2GN&t=podcast&e=nx-s1-6028023&p=g-s1-143588&d=2861&size=45791652"
+   "show": "Hard Fork",
+   "title": "Why the Tech Right Lost Big This Week",
+   "date": "Fri, Nov 6, 2026",
+   "length": "68 min",
+   "about": "Roose and Newton sit down with New York Times reporters Erin Griffith and Theodore Schleifer and columnist Ezra Klein to make sense of the midterm results for the tech industry: the role anti-AI and anti-data-center sentiment played, the backlash against billionaires, and whether Silicon Valley is having a vibe shift away from the Tech Right. Schleifer also ranks the midterm tech megadonors from first to worst on what they actually got for their money.",
+   "why": "Out today, and the one episode that ties the week's politics directly to AI: anti-AI and anti-data-center sentiment as an actual election force, plus a donor-by-donor accounting of what Silicon Valley's midterm money bought.",
+   "page": "https://podcasts.apple.com/us/podcast/why-the-tech-right-lost-big-this-week/id1528594034?i=1000800230553&uo=4",
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/38bdaf0f-4886-47b2-82d6-15ecf803abbf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=38bdaf0f-4886-47b2-82d6-15ecf803abbf&feed=6HKOhNgS"
   },
   {
-   "show": "The AI Daily Brief",
-   "title": "How the Midterm Results Change AI",
+   "show": "The Daily AI Show",
+   "title": "Anthropic Study: Analysts Followed a Biased AI’s Lead 86% of the Time",
    "date": "Wed, Nov 4, 2026",
-   "length": "25 min",
-   "about": "The Democratic wave is bringing new scrutiny to AI, but how much will actually change? NLW breaks down the election's implications for data center construction, AI regulation, and the emerging 2028 presidential race - and why the backlash could lead to a better deal for local communities rather than a halt to the AI build-out.",
-   "why": "NLW separates what a Democratic Congress can actually change - data center permits, AI regulation, 2028 positioning - from what stays the same, and makes the case the backlash ends in better terms for host communities, not a stopped build-out.",
-   "page": "https://podcasts.apple.com/us/podcast/how-the-midterm-results-change-ai/id1680633614?i=1000799863694&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128791666/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435892590-44100-2-69b4a6a796c84.mp3"
-  },
-  {
-   "show": "Decoder with Nilay Patel",
-   "title": "The hidden supply chain costs of the AI boom",
-   "date": "Thu, Nov 5, 2026",
-   "length": "49 min",
-   "about": "Nilay's guest is Willy Shih, an economist and professor of management practice at Harvard Business School, author of the upcoming book Where Does My Stuff Come From? They get into the economics underneath the AI boom: Trump's tariffs, the RAM price hikes and global memory shortage squeezing hardware, and why China remains a global manufacturing powerhouse even though every other country treats that as a risk.",
-   "why": "Out today: Shih prices the part of the AI boom you can hold - every data center is chips, memory, and components crossing borders, and tariffs plus the memory shortage are quietly taxing each build.",
-   "page": "https://podcasts.apple.com/us/podcast/the-hidden-supply-chain-costs-of-the-ai-boom/id1011668648?i=1000800023647&uo=4",
-   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP1361479565.mp3"
+   "length": "62 min",
+   "about": "An Anthropic experiment finds analysts followed the lean of biased AI agents 86% of the time. The crew also covers GPT 6.2 Astra showing up in Codex usage breakdowns, new Anthropic research that uses cryptographic proofs to verify which model produced an output, and a Stanford test of 20 recent models that found half of 50 widely cited AI flaws gone but more sycophancy than before. Ethan Mollick's question about which skills humans should refuse to automate gets a full discussion.",
+   "why": "A number worth remembering: when Anthropic leaned its agents, analysts followed the bias 86% of the time. The Stanford re-test in the same episode - half of 50 cited flaws fixed, sycophancy worse - is the other half of the picture.",
+   "page": "https://podcasts.apple.com/us/podcast/anthropic-study-analysts-followed-a-biased-ais-lead/id1707077660?i=1000799883652&uo=4",
+   "audio": "https://anchor.fm/s/e71b9e54/podcast/play/128801221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435904557-44100-2-ac3cb6fe861228.mp3"
   },
   {
    "show": "Marketplace Tech",
-   "title": "ChatGPT for Teens' safeguards don't work, risk assessment finds",
-   "date": "Thu, Nov 5, 2026",
-   "length": "7 min",
-   "about": "OpenAI's new teen-appropriate version of ChatGPT may not be living up to its promises, according to an independent evaluation. The new mode is supposed to have stronger guardrails for sensitive topics, automatic parental alerts, and a study tool that won't just give kids the answers to their homework. But the nonprofit Common Sense Media evaluated the tool and found it poses 'unacceptable risks.' Tom Siegel, who leads the Youth Safety Institute at Common Sense and tested about 4,000 prompts using fake teen accounts, speaks with Meghan McCarty Carino about his findings.",
-   "why": "A test, not a take: Common Sense ran about 4,000 prompts through ChatGPT's teen mode using fake teen accounts and still found risks it calls unacceptable - in seven minutes, with the tester himself explaining where the guardrails failed.",
-   "page": "https://podcasts.apple.com/us/podcast/chatgpt-for-teens-safeguards-dont-work-risk-assessment/id73330855?i=1000800031761&uo=4",
-   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/tech_report/2026/11/05/tech_20261105_1105_MP_TECH_pod_128.mp3?awCollectionId=mkp-MKPtech&awEpisodeId=01M6M4SE1KW4KJ0T6A48HPJ9MS"
+   "title": "The promise and risks of AI for mental health support",
+   "date": "Wed, Nov 4, 2026",
+   "length": "12 min",
+   "about": "A growing number of lawsuits accuse AI companies of harming users - alleging chatbots have encouraged self-harm, reinforced delusions, or failed to recognize signs of distress. At the same time, a growing number of users, particularly younger ones, say they are turning to AI for emotional support. Dr. John Torous, who studies how technology interacts with mental health, explains why the same tool can help some people and put others at risk.",
+   "why": "Twelve minutes on the sharpest version of the chatbot question, with a researcher who studies it: lawsuits on one side, younger users turning to chatbots for support on the other, and what the evidence actually shows.",
+   "page": "https://podcasts.apple.com/us/podcast/the-promise-and-risks-of-ai-for-mental-health-support/id73330855?i=1000799796186&uo=4",
+   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/tech_report/2026/11/04/tech_20261104_1104_MP_TECH_pod_128.mp3?awCollectionId=mkp-MKPtech&awEpisodeId=01M6HKZ1VNW1RYY1ZTGWCBQ1HX"
   },
   {
-   "show": "Masters of Scale",
-   "title": "Demis Hassabis says society is “not ready” for the AI future",
-   "date": "Thu, Nov 5, 2026",
-   "length": "26 min",
-   "about": "Google DeepMind co-founder Demis Hassabis says the world is not ready yet for what's next in AI. He joins Reid Hoffman to talk about how to effectively govern frontier AI and why a more diverse group of experts needs a seat at the table. The conversation was recorded live at the Masters of Scale Summit in October 2026 at the Presidio Theatre in San Francisco.",
-   "why": "Discovery pick — Masters of Scale is Reid Hoffman's interview show, new here: Hassabis, recorded live at its summit, lays out how he would govern frontier AI and who he thinks is missing from the table making those calls.",
-   "page": "https://podcasts.apple.com/us/podcast/demis-hassabis-says-society-is-not-ready-for-the-ai-future/id1227971746?i=1000800019587&uo=4",
-   "audio": "https://dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/pscrb.fm/rss/p/tracking.swap.fm/track/7G0M4p2bOLP0mP50O3CD/rss.art19.com/episodes/142bdf36-d6ed-4e90-892c-96609f27f1f8.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94"
+   "show": "The Neuron",
+   "title": "Napster Is an AI Company Now. Seriously.",
+   "date": "Wed, Nov 4, 2026",
+   "length": "48 min",
+   "about": "Corey talks with Napster CEO John Acunto about the company's pivot from music into AI agents and what Napster calls 'streaming intelligence.' Acunto lays out a four-part customer-data framework - capture, learn, act, own - and argues companies should use conversational agents to learn directly from customers while keeping control of the resulting data and models. The conversation covers photorealistic video agents, edge compute, and Napster's bet that the next AI interface will feel more like talking to a person than typing into a box.",
+   "why": "Napster, the file-sharing name from 1999, now sells AI agents. Its CEO lays out the pivot in concrete terms - a four-part data framework and video agents you talk to - instead of a rebrand announcement.",
+   "page": "https://podcasts.apple.com/us/podcast/napster-is-an-ai-company-now-seriously/id1742267001?i=1000799863837&uo=4",
+   "audio": "https://anchor.fm/s/f51d3fd0/podcast/play/128780830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435881680-44100-2-13b9f85fe911d.mp3"
+  },
+  {
+   "show": "The Journal.",
+   "title": "Why Companies Are Paying You to Quit",
+   "date": "Wed, Nov 4, 2026",
+   "length": "18 min",
+   "about": "Microsoft has announced buyouts for 60,000 employees, and WSJ reporter Chip Cutter says the programs are becoming a trend across corporate America. Companies under pressure to increase AI spending and cut costs see buyouts as a way to shrink headcount without the disruption and backlash that come with mass layoffs. Imani Moise hosts.",
+   "why": "Discovery pick — The Journal. is the Wall Street Journal's daily news show, new here: Microsoft is paying 60,000 people to quit, and buyouts are spreading as companies free up money for AI spending without calling it layoffs.",
+   "page": "https://podcasts.apple.com/us/podcast/why-companies-are-paying-you-to-quit/id1469394914?i=1000799881821&uo=4",
+   "audio": "https://pdst.fm/e/traffic.megaphone.fm/WSJ2167564537.mp3"
   }
  ]
 }
