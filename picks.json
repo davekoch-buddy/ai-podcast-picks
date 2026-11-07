@@ -3,6 +3,16 @@
  "updated": "2026-11-07",
  "episodes": [
   {
+   "show": "Machine Gods",
+   "title": "The Purple Tsunami Against Data Centers",
+   "date": "Fri, Nov 6, 2026",
+   "length": "37 min",
+   "about": "AI was all over the 2026 midterms: in the ads, in the political spending and in voters' opposition to data centers. Kevin Roose and Casey Newton break down the races that most surprised them, from Texas to a small Ohio town that recalled its mayor over a proposed Meta facility, and ask whether the backlash will slow AI progress or just force the industry to strike a better deal with communities. Then Rob Flaherty, co-founder of the Democratic AI super PAC Tomorrow Together, joins to share which AI messages moved voters, what a Democratic Congress could get done on AI safety, and how the fight over AI could shape 2028.",
+   "why": "New full episode from the always-include show: Roose and Newton's own read on the midterms, race by race - including the Ohio mayor recalled over a proposed Meta facility and what a Democratic Congress could get done on AI safety.",
+   "page": "https://podcasts.apple.com/us/podcast/the-purple-tsunami-against-data-centers/id6812430636?i=1000800238905&uo=4",
+   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/d439153f-17fd-435a-952b-d257b61df9c7/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=d439153f-17fd-435a-952b-d257b61df9c7&feed=QbdJo2GN&t=podcast&e=nx-s1-6032000&p=g-s1-143588&d=2249&size=35994688"
+  },
+  {
    "show": "Decoder with Nilay Patel",
    "title": "AI broke the cybersecurity world. Now what?",
    "date": "Sat, Nov 7, 2026",
@@ -31,16 +41,6 @@
    "why": "Virtual cells from the lab pushing the algorithms furthest: what multi-scale, multi-modal models can now say about how a cell will behave, and what is still missing.",
    "page": "https://podcasts.apple.com/us/podcast/controlling-biology-fabian-theis-helmholtz-munich/id1674008350?i=1000800269700&uo=4",
    "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3"
-  },
-  {
-   "show": "The AI Daily Brief",
-   "title": "Companies Are Spending 5x More on AI Now",
-   "date": "Sat, Nov 7, 2026",
-   "length": "31 min",
-   "about": "Companies are spending nearly five times more on AI than last year, and agents are driving the surge. NLW breaks down Menlo Ventures' latest enterprise AI report, exploring why spending is blowing past budgets, how Anthropic and OpenAI are capturing the market, and what the shift from seats to tokens means for businesses. In the headlines: a massive market selloff, uncertainty around Anthropic's IPO, and METR's report on AI accelerating AI research.",
-   "why": "Out today, built on Menlo's new enterprise report: spending up nearly 5x in a year with agents driving it, and the seat-to-token shift underneath the headline number.",
-   "page": "https://podcasts.apple.com/us/podcast/companies-are-spending-5x-more-on-ai-now/id1680633614?i=1000800280399&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128940058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F436080818-44100-2-1aad56ffe7cd3.mp3"
   },
   {
    "show": "Unsupervised Learning with Jacob Effron",
