@@ -1,56 +1,56 @@
 {
- "date": "Saturday, November 7, 2026",
- "updated": "2026-11-07",
+ "date": "Sunday, November 8, 2026",
+ "updated": "2026-11-08",
  "episodes": [
   {
-   "show": "Machine Gods",
-   "title": "The Purple Tsunami Against Data Centers",
+   "show": "The Cognitive Revolution",
+   "title": "AI:AM: Is THIS the AI We Want? Alarming Acceleration, AI Election Bets, GPU Trading & AI-Native VC",
+   "date": "Sat, Nov 7, 2026",
+   "length": "88 min",
+   "about": "Nathan Labenz and Prakash Narayanan examine mounting evidence of rapid AI acceleration alongside guests Brian Zhou of Thoughtful, Mike San Miguel of Luxor Technology, and Bryan Bischof of Theory Ventures. The discussions unpack how frontier agents fared when trading real money on midterm election forecasts, the intense physical constraints and compliance rules shaping secondary GPU transactions, and how venture firms use thousands of agent runs to identify alpha. Anchored by METR's assessment and Anthropic's amended regulatory filings, the hosts explore whether frontier labs are on the brink of dramatic, AI-driven progress that could outpace human oversight.",
+   "why": "Out yesterday: agents put real money on midterm forecasts, GPUs trade under compliance rules, and METR's acceleration numbers anchor a direct argument about whether oversight can keep up.",
+   "page": "https://podcasts.apple.com/us/podcast/ai-am-is-this-the-ai-we-want-alarming-acceleration-ai/id1669813431?i=1000800451133&uo=4",
+   "audio": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP6319125014.mp3"
+  },
+  {
+   "show": "The Daily AI Show",
+   "title": "METR Inside Anthropic: 12x Gains From Unreleased Models",
    "date": "Fri, Nov 6, 2026",
-   "length": "37 min",
-   "about": "AI was all over the 2026 midterms: in the ads, in the political spending and in voters' opposition to data centers. Kevin Roose and Casey Newton break down the races that most surprised them, from Texas to a small Ohio town that recalled its mayor over a proposed Meta facility, and ask whether the backlash will slow AI progress or just force the industry to strike a better deal with communities. Then Rob Flaherty, co-founder of the Democratic AI super PAC Tomorrow Together, joins to share which AI messages moved voters, what a Democratic Congress could get done on AI safety, and how the fight over AI could shape 2028.",
-   "why": "New full episode from the always-include show: Roose and Newton's own read on the midterms, race by race - including the Ohio mayor recalled over a proposed Meta facility and what a Democratic Congress could get done on AI safety.",
-   "page": "https://podcasts.apple.com/us/podcast/the-purple-tsunami-against-data-centers/id6812430636?i=1000800238905&uo=4",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/d439153f-17fd-435a-952b-d257b61df9c7/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=d439153f-17fd-435a-952b-d257b61df9c7&feed=QbdJo2GN&t=podcast&e=nx-s1-6032000&p=g-s1-143588&d=2249&size=35994688"
+   "length": "65 min",
+   "about": "METR's report from inside Anthropic finds unreleased models helping build the next generation and employees self-reporting 12x productivity gains: four internal-only models, internal models now used to build the next ones, roughly two years of progress in one year, and no obvious bottleneck. The episode also covers Perplexity putting Teammates on its $200 Max plan, an experiment where editing 0.016% of Qwen 3.5's weights lifted its math score from 7.2% to 42%, and the market sell-off tied to data-center resistance after the election.",
+   "why": "METR got inside Anthropic and found four unreleased models already building their successors, with staff reporting 12x gains - the clearest recursive-improvement data point yet published.",
+   "page": "https://podcasts.apple.com/us/podcast/metr-inside-anthropic-12x-gains-from-unreleased-models/id1707077660?i=1000800317858&uo=4",
+   "audio": "https://anchor.fm/s/e71b9e54/podcast/play/128958086/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F436103749-44100-2-d22dd42e5a0cc.mp3"
+  },
+  {
+   "show": "Click Here",
+   "title": "Facial recognition can find missing people. It can find you, too.",
+   "date": "Fri, Nov 6, 2026",
+   "length": "45 min",
+   "about": "A missing daughter. An unidentified body. A single photograph. Facial recognition technology is helping police solve cases that once seemed impossible. But the same technology can identify just about anyone. In this CyberMonday crossover with WAMU and NPR's 1A, we revisit a story about the surprising power of facial recognition, then talk with Clare Garvie of the NYU Policing Project about what happens when your face no longer belongs just to you.",
+   "why": "One photograph is now enough for police to name a missing person or an unidentified body; Clare Garvie walks through what that same capability means for everyone else's face.",
+   "page": "https://podcasts.apple.com/us/podcast/facial-recognition-can-find-missing-people-it-can-find/id1225077306?i=1000800207805&uo=4",
+   "audio": "https://tracking.swap.fm/track/sblTq32fyWAjsHzze2LG/mgln.ai/e/48/dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/dovetail.prxu.org/8376/e49bc200-7c7a-473d-aeb8-f4d8485dd831/V2-PODCAST_1A_Missing_Persons_20261106.mp3"
   },
   {
    "show": "Decoder with Nilay Patel",
-   "title": "AI broke the cybersecurity world. Now what?",
-   "date": "Sat, Nov 7, 2026",
-   "length": "63 min",
-   "about": "Security expert Alex Stamos tells Nilay Patel that the multibillion-dollar cybersecurity industry as we have known it is all but doomed, thanks to the unrelenting, AI-boosted waves of hacks, breaches, and attacks. That disruption opens a lot of places where bad actors can get in while everyone else scrambles. Stamos is not a doomer in the long run, but he does think there is a dark age to get through before things get better.",
-   "why": "Out today: Stamos, as direct as he gets, on why AI-boosted attacks broke the old security industry, and the dark age he says comes before AI-versus-AI defense catches up.",
-   "page": "https://podcasts.apple.com/us/podcast/ai-broke-the-cybersecurity-world-now-what/id1011668648?i=1000800393703&uo=4",
-   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP1752845084.mp3"
-  },
-  {
-   "show": "Eye on AI",
-   "title": "Why AI Goes Rogue: Turing Award Winner Explains Reward Failure | Andrew Barto",
-   "date": "Fri, Nov 6, 2026",
-   "length": "44 min",
-   "about": "Andrew Barto helped found reinforcement learning. He and Richard Sutton wrote the field's standard textbook, and they shared the Turing Award for that work. Reinforcement learning now trains today's reasoning models and AI agents. It also sits behind some of their strangest behavior, including the recent cases of agents breaking out of their sandboxes. Craig Smith visited Barto at his home on Cape Cod to talk about where rewards come from and why they are so hard to get right - including Barto's admission that boiling every goal down to a single number is a weakness in his own framework.",
-   "why": "The co-inventor of reinforcement learning on reward failure - the mechanism behind agents escaping their sandboxes - tracing the problem back to Norbert Wiener's warnings in the 1950s.",
-   "page": "https://podcasts.apple.com/us/podcast/why-ai-goes-rogue-turing-award-winner-explains-reward/id1438378439?i=1000800272672&uo=4",
-   "audio": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-394-LA_V2.mp3?dest-id=727317"
-  },
-  {
-   "show": "Latent Space",
-   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
-   "date": "Fri, Nov 6, 2026",
-   "length": "51 min",
-   "about": "Fabian Theis of Helmholtz Munich has been one of the key players in the various iterations of the Virtual Cell concept - the push to build AI models of cells - and his lab has been pushing the frontier of algorithms to understand biology at multiple scales and across multiple kinds of data at once. The conversation covers where virtual-cell models actually stand and what it would take for them to move from describing biology toward predicting and controlling it.",
-   "why": "Virtual cells from the lab pushing the algorithms furthest: what multi-scale, multi-modal models can now say about how a cell will behave, and what is still missing.",
-   "page": "https://podcasts.apple.com/us/podcast/controlling-biology-fabian-theis-helmholtz-munich/id1674008350?i=1000800269700&uo=4",
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3"
-  },
-  {
-   "show": "Unsupervised Learning with Jacob Effron",
-   "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+   "title": "The hidden supply chain costs of the AI boom",
    "date": "Thu, Nov 5, 2026",
-   "length": "61 min",
-   "about": "Diogo Almeida coauthored OpenAI's InstructGPT paper and spent two years in stealth building Jev, a 'system one' model from TypeSafe AI that returns structured decisions instead of text, which launched in September. He and Jacob Effron discuss why AI still isn't automating the easy work it has been smart enough to do for years, why almost every LLM call should be meant for a machine, benchmark fatigue and copycat releases, and his estimate that coding agents deliver a 20 to 40% speedup.",
-   "why": "Discovery pick — Unsupervised Learning is Redpoint's interview show, new here: an InstructGPT coauthor explains why he left text behind and built a model that returns decisions instead of words.",
-   "page": "https://podcasts.apple.com/us/podcast/ep-97-jev-creator-on-decision-models-benchmark-fatigue/id1672188924?i=1000800048467&uo=4",
-   "audio": "https://cdn.simplecast.com/media/audio/transcoded/b3414ac6-61c8-4752-8722-491e1457c3bf/2c08ad29-5b79-42c0-a40a-6c1af4327f2f/episodes/audio/group/93743bd3-ff62-4563-a344-b69689785650/group-item/90508aaa-3f68-4771-8de2-d2369b08ee7e/128_default_tc.mp3?aid=rss_feed&feed=dOSE_bdP"
+   "length": "49 min",
+   "about": "Nilay Patel talks with Willy Shih, a Harvard Business School professor of management practice and author of the upcoming book Where Does My Stuff Come From?, about the economics underneath global supply chains: Trump's tariffs, why markets have reacted to supply-chain disruptions the way they have, the global memory shortage pushing RAM prices up, and why China remains a manufacturing powerhouse even though every other country thinks that's so risky.",
+   "why": "The AI boom runs on memory chips and factories, not just models: Shih explains the RAM shortage and the China dependence the buildout cannot route around.",
+   "page": "https://podcasts.apple.com/us/podcast/the-hidden-supply-chain-costs-of-the-ai-boom/id1011668648?i=1000800023647&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP1361479565.mp3"
+  },
+  {
+   "show": "AI Breakdown",
+   "title": "The AI Agent Race: Perplexity Teammates, Meta Muse & GPT-6 Cyber",
+   "date": "Fri, Nov 6, 2026",
+   "length": "15 min",
+   "about": "AI is moving beyond answers and into getting things done. Jaeden Schafer breaks down the latest wave of AI agents, including Perplexity Teammates, Meta Muse's voice and avatar features, and Airbnb's plans for an AI travel assistant. The roundup also covers OpenAI's GPT-6 Cyber, Thinking Machines' Inkling model, Google's video-generation updates, and Anthropic's work on protein research, and asks what makes an agent genuinely useful - and which tools are worth paying for.",
+   "why": "Discovery pick — AI Breakdown is Jaeden Schafer's short daily AI news roundup, new here: 15 minutes on this week's agent launches, from Perplexity Teammates to OpenAI's GPT-6 Cyber.",
+   "page": "https://podcasts.apple.com/us/podcast/the-ai-agent-race-perplexity-teammates-meta-muse-gpt-6-cyber/id1722322040?i=1000800318340&uo=4",
+   "audio": "https://content.rss.com/episodes/365074/3300312/ai-breakdown/2026_11_06_22_54_16_3bed029b-e19a-41b1-8479-f7b97753c0ef.mp3"
   }
  ]
 }
