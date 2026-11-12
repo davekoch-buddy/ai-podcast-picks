@@ -1,56 +1,56 @@
 {
- "date": "Wednesday, November 11, 2026",
- "updated": "2026-11-11",
+ "date": "Thursday, November 12, 2026",
+ "updated": "2026-11-12",
  "episodes": [
   {
-   "show": "The AI Daily Brief",
-   "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
-   "date": "Tue, Nov 10, 2026",
-   "length": "30 min",
-   "about": "Anthropic's Fable 5.2 is breaking benchmarks and powering ambitious demos, so why isn't it an obvious upgrade for everyday work? NLW examines early reviews and his own experiments to explore where the model outperforms Opus 5.5, where it still falls short, and why its biggest opportunities may require rethinking what we ask AI to do.",
-   "why": "Anthropic's Fable 5.2 tops the benchmarks, but NLW's own experiments say switching is not automatic: where it beats Opus 5.5, where it still falls short, and why getting the gain means asking AI for different work.",
-   "page": "https://podcasts.apple.com/us/podcast/fable-5-2-is-the-best-ai-ever-so-why-am-i-not-switching-yet/id1680633614?i=1000801071897&uo=4",
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/129220537/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F436438429-44100-2-c6f55ce15027c.mp3"
+   "show": "Machine Gods",
+   "title": "Jensen Huang’s Nvidiotic Spy Scandal + Can Dems Pass AI Regulation?",
+   "date": "Wed, Nov 11, 2026",
+   "length": "46 min",
+   "about": "It might be the biggest tech scandal of the year, and possibly the most significant intelligence breach since the Cold War. On Sunday, Nvidia CEO Jensen Huang admitted to an affair, following reports that Alice Huang, the woman involved, is a suspected Chinese intelligence asset. What happens now to Jensen, to the world's most important AI company (which has no clear succession plan), and to the fight over U.S.-China AI policy and chip export controls? Then, Rep. Greg Casar of Texas, chair of the Congressional Progressive Caucus and one of the most vocal voices on AI regulation in the House, joins to talk about how Democrats plan to use their new majority to pass AI policy, why he wants to tax AI companies, and why he co-wrote a bill with Sen. Bernie Sanders to ban artificial superintelligence.",
+   "why": "Always-include show: Jensen Huang admitted the affair and the other Huang is a suspected Chinese intelligence asset, with no succession plan at Nvidia — then Rep. Casar on taxing AI companies and banning recursive self-improvement.",
+   "page": "https://podcasts.apple.com/us/podcast/jensen-huangs-nvidiotic-spy-scandal-can-dems-pass-ai/id6812430636?i=1000801205093&uo=4",
+   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/ac4d39c1-7c50-4071-8b52-6272b88a6742/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=ac4d39c1-7c50-4071-8b52-6272b88a6742&feed=QbdJo2GN&t=podcast&e=nx-s1-6036816&p=g-s1-143588&d=2756&size=44110202"
   },
   {
-   "show": "80,000 Hours Podcast",
-   "title": "The US is building the Smartest AI. China is running a different race | Luisa Rodriguez",
-   "date": "Tue, Nov 10, 2026",
-   "length": "26 min",
-   "about": "China's best models are only six months behind America's, despite having far less computing power. Luisa Rodriguez investigates how that is possible: US rules stop Nvidia selling its best chips to China, but Chinese companies can still rent those same chips in data centers abroad, smugglers go to extreme lengths to sneak chips into China, and Chinese AI companies copy America's best models on an industrial scale. The US could tackle these gaps with powers it already has, so the current situation, with China only months behind, is largely a policy choice.",
-   "why": "Discovery pick — 80,000 Hours is an interview show about the world's biggest problems, new here: how China stays six months behind US models by renting banned chips abroad and copying models at scale, and why that gap is a policy choice.",
-   "page": "https://podcasts.apple.com/us/podcast/the-us-is-building-the-smartest-ai-china-is/id1245002988?i=1000801056174&uo=4",
-   "audio": "https://media.transistor.fm/b24a87e5/a657416d.mp3"
+   "show": "Google DeepMind: The Podcast",
+   "title": "AlphaGenome 2: Teaching AI to read the entire human genome",
+   "date": "Wed, Nov 11, 2026",
+   "length": "40 min",
+   "about": "AlphaGenome 2 is Google DeepMind's next-generation DNA sequence model, announced November 11. Where the first AlphaGenome predicted how DNA variants affect molecular activity across broad tissues, AlphaGenome 2 is a conditional model: it takes a specific cell type or cell state as input alongside a million-letter DNA sequence and predicts that variant's effect in that one kind of cell. Trained on more than 100 million individual cell profiles across 68 tissues, it identifies nearly twice as many variants that change gene expression in cells as the previous state of the art, and it can analyze cell types and disease states it has never seen before, without retraining. It is available now for non-commercial research via the AlphaGenome API.",
+   "why": "Discovery pick — DeepMind's own research podcast, new here: AlphaGenome 2, announced yesterday, predicts what a single-letter DNA change does in one specific cell type instead of a tissue average, and reproduced an IBD finding in gut immune cells.",
+   "page": "https://podcasts.apple.com/us/podcast/alphagenome-2-teaching-ai-to-read-the-entire-human-genome/id1476316441?i=1000801283717&uo=4",
+   "audio": "https://afp-920373-injected.calisto.simplecastaudio.com/36cf10bf-f6dd-4a98-96a9-8eda9f59db4f/episodes/9234925c-4e42-4b1b-a9d3-f24d9005ea2d/audio/128/default.mp3?aid=rss_feed&awCollectionId=36cf10bf-f6dd-4a98-96a9-8eda9f59db4f&awEpisodeId=9234925c-4e42-4b1b-a9d3-f24d9005ea2d&feed=JT6pbPkg"
   },
   {
-   "show": "TWIML AI Podcast",
-   "title": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
-   "date": "Tue, Nov 10, 2026",
-   "length": "58 min",
-   "about": "Stefano Corazza, head of AI research at Canva, explains how his team is building custom models and agents around iterative design workflows. They discuss the tradeoffs between training models from scratch and adapting open-weights models, and how proprietary design data supports specialization. Corazza explains how Craft separates layout planning from pixel generation and how Brush uses design tools and visual feedback to create and revise compositions, plus the challenge of evaluating design quality beyond a single generation, using vision-language models as judges alongside human evaluation.",
-   "why": "Canva's AI research head on the design failure everyone hits — the model cannot revise, only re-roll — and the Craft and Brush systems built around layout first, pixels second, and visual feedback.",
-   "page": "https://podcasts.apple.com/us/podcast/canva-is-tackling-ai-designs-most-frustrating-problem/id1116303051?i=1000801031397&uo=4",
-   "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8451107730.mp3"
+   "show": "The a16z Show",
+   "title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
+   "date": "Thu, Nov 12, 2026",
+   "length": "46 min",
+   "about": "AI is collapsing the distance between an idea and a playable game. What happens when almost anyone can build one? In this episode, a16z General Partners Anish Acharya and Jonathan Lai discuss how AI is changing game development, from generating art and code to operating tools like Blender and game engines directly. They explain why cheaper development could let studios take more creative risks while opening game creation to people without traditional coding or design skills. They also explore modding, remixing existing games, and the emergence of AI-native experiences that generate characters, abilities, and storylines on the fly, potentially creating games that never really end.",
+   "why": "Out today: a16z's games partners on agents that do not just generate art and code but operate Blender and game engines themselves, and on AI-native games that generate characters and storylines on the fly.",
+   "page": "https://podcasts.apple.com/us/podcast/the-next-era-of-games-mods-agents-and-infinite-worlds/id842818711?i=1000801498234&uo=4",
+   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/8b403b9e-103f-46e4-96d3-94a6d9815e26/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=8b403b9e-103f-46e4-96d3-94a6d9815e26&feed=JGE3yC0V"
   },
   {
    "show": "The Cognitive Revolution",
-   "title": "The Neuron Basis: Goodfire's Curt Tigges on Agentic Interp, Monosemanticity & Reverse Engineering",
-   "date": "Tue, Nov 10, 2026",
-   "length": "116 min",
-   "about": "Goodfire technical staff member Curt Tigges discusses research revealing that individual MLP neurons in modern language models are far more interpretable and functionally bounded than previously thought. Using an automated agent to test hypotheses across architectures like Qwen3.6-35B-A3B, Tigges explains how modern gated MLPs act as legible conjunctions and control signals capable of extensive dynamic sparsity without lasting benchmark loss. By showing that many internal representations can be directly enumerated, this work offers an alternative to complex external featurizers and provides practical avenues for behavior monitoring and persona steering.",
-   "why": "The long one: an automated agent tested neurons one by one across models like Qwen3.6 and found the insides far more legible than expected, which points to direct ways to monitor and steer behavior.",
-   "page": "https://podcasts.apple.com/us/podcast/the-neuron-basis-goodfires-curt-tigges-on-agentic/id1669813431?i=1000801057229&uo=4",
-   "audio": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP9923523855.mp3"
+   "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+   "date": "Wed, Nov 11, 2026",
+   "length": "92 min",
+   "about": "Vijoy Pandey, SVP and GM of Outshift by Cisco, discusses the challenges of multi-agent systems and Cisco's new open-source protocols designed to help AI agents collaborate effectively. He explains how tools like Scope, Accord, and Concord address semantic misalignments, intent negotiation, and cognitive failures across complex workflows. The conversation also dives into personal agent setups, avoiding model lock-in, and the rise of latent space communication. Finally, Pandey shares why proper guardrails will ensure humanity benefits as autonomous systems grow in complexity.",
+   "why": "The long one: Pandey on why multi-agent systems fail on meaning before they fail on capability — agents using the same words for different things — and the open-source Scope, Accord and Concord protocols built to fix that.",
+   "page": "https://podcasts.apple.com/us/podcast/agents-that-think-together-ciscos-vijoy-pandey-on-semantic/id1669813431?i=1000801203895&uo=4",
+   "audio": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP1214937196.mp3"
   },
   {
-   "show": "Marketplace Tech",
-   "title": "Reddit pivots to a login-only experience",
-   "date": "Wed, Nov 11, 2026",
-   "length": "8 min",
-   "about": "Reddit announced it will soon require users to log in to see much of the helpful human-generated content on its site. Why? Because traffic, and thus advertising, has taken a hit since AI started summarizing its data. It is the latest development to threaten the old model of the open internet, says Sarah Gilbert, who researches online communities at the Citizens and Technology Lab at Cornell. She says the new login requirement puts up a wall between humans on the internet and is likely to discourage future contributions to the site.",
-   "why": "Out today, eight minutes: Reddit is putting its posts behind a login because AI summaries took the traffic and the ad money with it — one concrete break in the open web's model.",
-   "page": "https://podcasts.apple.com/us/podcast/reddit-pivots-to-a-login-only-experience/id73330855?i=1000801194106&uo=4",
-   "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/tech_report/2026/11/11/tech_20261111_1111_MP_TECH_pod_128.mp3?awCollectionId=mkp-MKPtech&awEpisodeId=01M73GZC2PDJ9YCPT9AA5A2KAQ"
+   "show": "WSJ Tech News Briefing",
+   "title": "Inside the Jeff Bezos-Backed Startup Trying to Automate Engineering",
+   "date": "Thu, Nov 12, 2026",
+   "length": "13 min",
+   "about": "Physical AI, or the move of AI from digital to the physical world, is considered one of tech's next frontiers. At a recent WSJ Tech event, WSJ reporter Kate Clark sat down with Prometheus co-CEO Vik Bajaj to discuss moving beyond large language models to speed up real-world construction, manufacturing competition with China, and the startup's $41 billion valuation. Julie Chang hosts.",
+   "why": "Thirteen minutes, out today: Prometheus co-CEO Vik Bajaj on moving past language models to AI that speeds up construction and manufacturing, and on competing with China in the physical world.",
+   "page": "https://podcasts.apple.com/us/podcast/inside-the-jeff-bezos-backed-startup-trying-to/id74844126?i=1000801395387&uo=4",
+   "audio": "https://dowjones.simplecastaudio.com/ad7cb3e1-19c4-4670-984f-a03f333022e4/episodes/663ce913-e90d-43c5-9772-b3c8240d61b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=ad7cb3e1-19c4-4670-984f-a03f333022e4&awEpisodeId=663ce913-e90d-43c5-9772-b3c8240d61b0&feed=ui_HbBma"
   }
  ]
 }
