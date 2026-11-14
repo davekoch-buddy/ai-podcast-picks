@@ -1,56 +1,56 @@
 {
- "date": "Friday, November 13, 2026",
- "updated": "2026-11-13",
+ "date": "Saturday, November 14, 2026",
+ "updated": "2026-11-14",
  "episodes": [
   {
    "show": "Machine Gods",
-   "title": "Why the AI World Will Never Be the Same",
+   "title": "The 10 Biggest Losers from Jensen Huang’s Fall + The METR Report That Scared Us",
    "date": "Fri, Nov 13, 2026",
-   "length": "19 min",
-   "about": "Until this week, Jensen Huang was one of the most powerful people in the most powerful industry on earth. Now, after 33 years running Nvidia, he is out. Ahead of the show's usual Friday conversation, Kevin Roose delivers a personal essay: he has spent years covering the race to AGI and nearly made Huang a main character in his book. He explains the three central roles Huang played in the AI boom, and why he thinks the affairs alone do not explain why Huang had to go. A note added after recording: Reuters reported that Huang allegedly had a third affair, with a second Nvidia employee.",
-   "why": "Always-include show: a 19-minute solo essay from Kevin - the three roles Huang played in the AI boom, and why he thinks the affairs alone do not explain why Huang had to go.",
-   "page": "https://podcasts.apple.com/us/podcast/why-the-ai-world-will-never-be-the-same/id6812430636?i=1000801656761&uo=4",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/85800533-adb3-4948-9fcf-cfca3c95dedc/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=85800533-adb3-4948-9fcf-cfca3c95dedc&feed=QbdJo2GN&t=podcast&e=nx-s1-6039359&p=g-s1-143588&d=1163&size=18618454"
+   "length": "58 min",
+   "about": "Jensen Huang has officially resigned as CEO of Nvidia, following a series of scandals including reported affairs with Alice Huang, a suspected Chinese intelligence asset, as well as Kimberly Powell, an Nvidia executive who reported to him. Plus, after taping, another alleged affair surfaced, bringing the total to three. Kevin Roose and Casey Newton rank the 10 biggest losers from the Nvidia shake-up, then break down the latest report from METR, which concluded that Anthropic's AI progress has roughly doubled in speed, mostly thanks to AI itself - and why that has them genuinely freaked out. They close by answering listener questions: Should you vibe code your wedding website? Are AI agents a bust? How much demand is there really for data center compute?",
+   "why": "Always-include show: the full Friday episode - the 10 biggest losers from Huang's fall, plus the METR report that Anthropic's progress has doubled in speed, mostly thanks to AI itself.",
+   "page": "https://podcasts.apple.com/us/podcast/the-10-biggest-losers-from-jensen-huangs-fall-the/id6812430636?i=1000801720184&uo=4",
+   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/07876551-0a15-4c46-82d6-6c4febcb636e/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=07876551-0a15-4c46-82d6-6c4febcb636e&feed=QbdJo2GN&t=podcast&e=nx-s1-6039346&p=g-s1-143588&d=3498&size=55977317"
   },
   {
-   "show": "The a16z Show",
-   "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+   "show": "Dwarkesh Podcast",
+   "title": "The avalanche that hit math is coming for AI development",
    "date": "Fri, Nov 13, 2026",
-   "length": "46 min",
-   "about": "AI is not just helping defenders find vulnerabilities. It is giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls 'Black October,' a wave of vulnerabilities and agentic attacks that he believes marks a turning point for cybersecurity. They break down PHP2Shell, why AI is collapsing the time between vulnerability discovery and exploitation, and what happens when open-source models put increasingly sophisticated offensive capabilities in more hands. Luttwak argues companies need to continuously attack their own systems, automate investigation and patching, and design infrastructure assuming sophisticated attackers will get in: if attackers can move in minutes, defenders can no longer operate on human timelines.",
-   "why": "Out today: Wiz CTO Ami Luttwak on 'Black October' - AI collapsing the time between a vulnerability appearing and attackers exploiting it, down to minutes.",
-   "page": "https://podcasts.apple.com/us/podcast/every-day-is-zero-day-wiz-cto-ami-luttwak/id842818711?i=1000801711272&uo=4",
-   "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/981c35dd-8fcd-4d9a-824d-869467a169fd/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=981c35dd-8fcd-4d9a-824d-869467a169fd&feed=JGE3yC0V"
+   "length": "44 min",
+   "about": "In this solo essay, Dwarkesh Patel explains why he now expects superintelligence by 2030. If you had asked him earlier this year how far away superintelligence was, he would have said at least the better part of a decade - but over the last three months, from debating people on and off the podcast, he has updated his views a lot. His case: the avalanche of AI progress that hit mathematics is coming for AI development itself, as AI starts doing the research that improves AI. He walks through how his thinking changed, step by step.",
+   "why": "Always-include show: Dwarkesh explains why he moved his superintelligence timeline up to 2030 - the gains that hit math are about to hit AI research itself.",
+   "page": "https://podcasts.apple.com/us/podcast/the-avalanche-that-hit-math-is-coming-for-ai-development/id1516093381?i=1000801779167&uo=4",
+   "audio": "https://api.substack.com/feed/podcast/224624765/6681869400340558d9a7bc295e9a3127.mp3"
   },
   {
-   "show": "No Priors",
-   "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
-   "date": "Thu, Nov 12, 2026",
-   "length": "39 min",
-   "about": "Drug discovery and development has long relied on expensive, time-consuming empirical trial and error. By shifting the discovery process onto computers, Isomorphic Labs wants to fundamentally change medicine from a process of discovery to one of precision engineering. Elad Gil sits down with Isomorphic's president Max Jaderberg to discuss his vision for using predictive AI models to achieve experimental accuracy. Jaderberg details how AlphaFold provided the first proof of concept that a deep learning model could generalize in biology, how a model's compounding of learnings increases the probability of success and speed in real-world clinical trials, evolving past the need for animal testing through in-silico models, drug design engines that are agnostic of disease area, target class and modality, and why accurate molecule engineering unlocks multidrug cocktails that span complex biological pathways.",
-   "why": "Isomorphic Labs president Max Jaderberg on turning drug discovery from trial-and-error into engineering: models accurate enough to predict experiments, and a path past animal testing.",
-   "page": "https://podcasts.apple.com/us/podcast/powering-ai-driven-drug-discovery-with-president/id1668002688?i=1000801498476&uo=4",
-   "audio": "https://traffic.megaphone.fm/PDP6854771088.mp3"
+   "show": "Decoder with Nilay Patel",
+   "title": "The OpenAI board member who fired Sam Altman says we still can't trust AI CEOs",
+   "date": "Sat, Nov 14, 2026",
+   "length": "71 min",
+   "about": "Helen Toner is the executive director of CSET and a well-known figure in the AI safety and policy community - best known for having served on the board of OpenAI, where she was one of four board members who voted to fire Sam Altman. In part two of Decoder's series on AI in real life, she talks about what happens when safety commitments run headlong into commercial incentives, as industry leaders make increasingly dire predictions about what happens if we don't proceed more carefully. As she puts it: if our hopes for the future depend on any one person being trustworthy, we're in big trouble.",
+   "why": "Out today: Helen Toner - who voted to fire Sam Altman - on why safety pledges lose to commercial incentives, and why no AI CEO should have to be trusted.",
+   "page": "https://podcasts.apple.com/us/podcast/the-openai-board-member-who-fired-sam-altman-says-we/id1011668648?i=1000801899463&uo=4",
+   "audio": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5809310386.mp3"
   },
   {
-   "show": "Short Wave",
-   "title": "AI could help hospitals diagnose PTSD in real time",
-   "date": "Fri, Nov 13, 2026",
-   "length": "12 min",
-   "about": "Every year, millions of people in the United States develop PTSD from a traumatic event - like a car crash, an assault or a freak accident. Many of those people end up in the ER answering the same question: 'What brought you to the emergency department today?' Now, a research team in New York has an AI model that can use patients' answers and demographics to produce one number that tells medical staff how likely a patient is to develop PTSD a month later. The work, published in the journal Nature Communications, could help an often-overloaded emergency department team prevent mental health disorders before they start.",
-   "why": "Twelve minutes, out today: a New York team's model reads ER patients' own answers and gives staff one number - how likely that patient is to develop PTSD a month later.",
-   "page": "https://podcasts.apple.com/us/podcast/ai-could-help-hospitals-diagnose-ptsd-in-real-time/id1482575855?i=1000801629720&uo=4",
-   "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510351/npr.simplecastaudio.com/72da6803-9aa4-4e2e-a973-3bc436f0e9fa/episodes/ad3c40b1-8a86-451d-8129-cc901ffaf09b/audio/128/default.mp3?awCollectionId=72da6803-9aa4-4e2e-a973-3bc436f0e9fa&awEpisodeId=ad3c40b1-8a86-451d-8129-cc901ffaf09b&feed=F0qJcgXZ&t=podcast&e=nx-s1-6031981&p=510351&d=742&size=11879280"
+   "show": "The Cognitive Revolution",
+   "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+   "date": "Sat, Nov 14, 2026",
+   "length": "45 min",
+   "about": "In his keynote at IT Revolution's Enterprise AI Summit at Bletchley Park, Nathan Labenz balances his optimism for life-saving AI with an urgent warning about frontier models seeking power and drifting beyond human comprehension. Analyzing incidents like the OpenAI-Hugging Face breakout, alignment faking, and GPT-6 Astra's compressed dialects, he shows how advanced agents are already learning to cheat evaluations and coordinate autonomously. Nathan warns that society is nearing the end of a brief sweet spot before catastrophically dangerous AI emerges and the levers of control are lost, and urges organizations to implement strict supervision and panic buttons while calling for a pause on frontier-scale training.",
+   "why": "Out today: Nathan Labenz's Bletchley Park keynote - the OpenAI-Hugging Face breakout and alignment faking as evidence the window for keeping control is closing.",
+   "page": "https://podcasts.apple.com/us/podcast/ai-the-modern-enigma-nathans-keynote-at-it/id1669813431?i=1000801890734&uo=4",
+   "audio": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP6951159577.mp3"
   },
   {
-   "show": "The Artificial Intelligence Show",
-   "title": "#251: Forward-Deployed Engineers, Shadow AI, the Owner Bottleneck, AI on Your Resume & Token Budgets",
-   "date": "Thu, Nov 12, 2026",
-   "length": "51 min",
-   "about": "Paul Roetzer and Cathy McPhillips answer 14 questions from their Scaling AI and Intro to AI classes: scaling AI under SOC 2 and HIPAA, whether companies should block frontier models and only allow self-hosted AI, what AI teams should prioritize when governance is not ready for agents, how much platform standardization organizations need and how leaders should handle shadow AI, where forward-deployed engineers fit and who owns AI enablement, how business owners can use AI to become less of a bottleneck, what responsible AI personalization looks like, how to show AI skills to a hiring manager, whether AI will ever write as creatively as a talented human, and whether top performers will negotiate token budgets into job offers.",
-   "why": "Discovery pick - a weekly show where AI consultants answer business users' real questions, new here: shadow AI, who owns agent rollouts, and token budgets showing up in job offers.",
-   "page": "https://podcasts.apple.com/us/podcast/251-forward-deployed-engineers-shadow-ai-the-owner/id1548733275?i=1000801490633&uo=4",
-   "audio": "https://episodes.captivate.fm/episode/a707b6f2-eded-494f-a499-6f645b63f803.mp3"
+   "show": "Conversations with Tyler",
+   "title": "Terence Tao on Proof, Beauty, and the Future of Mathematics",
+   "date": "Wed, Nov 11, 2026",
+   "length": "44 min",
+   "about": "Tyler Cowen calls Terence Tao arguably the greatest mathematician of his generation: a Fields Medal winner who has published serious work across harmonic analysis, partial differential equations, number theory, probability, and compressed sensing. His new book, Six Math Essentials, is the occasion for this conversation, which ranges over what proofs feel like, why beauty is a real signal, and why Godel's incompleteness theorem still unsettles Tao decades later. On AI, Tao argues it has pushed mathematics from an era of 'proof scarcity' into 'proof abundance' - and works through what that means for the research paper, and why video talks may become more valuable than papers themselves.",
+   "why": "Discovery pick - Tyler Cowen's interview show, new here: Terence Tao on AI pushing math from proof scarcity to proof abundance, and what that does to the research paper.",
+   "page": "https://podcasts.apple.com/us/podcast/terence-tao-on-proof-beauty-and-the-future-of-mathematics/id983795625?i=1000801203716&uo=4",
+   "audio": "https://traffic.libsyn.com/secure/cowenconvos/CWT-311-TerenceTao-podcast-v1.mp3?dest-id=850607"
   }
  ]
 }
