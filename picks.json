@@ -1,56 +1,56 @@
 {
-  "date": "Friday, November 20, 2026",
-  "updated": "2026-11-20",
+  "date": "Saturday, November 21, 2026",
+  "updated": "2026-11-21",
   "episodes": [
     {
-      "show": "No Priors",
-      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
-      "date": "Thu, Nov 19, 2026",
-      "length": "60 min",
-      "about": "Is the AI singularity actually coming? Bob McGrew, former Chief Research Officer at OpenAI, argues that superintelligence won’t arrive without changes in the physical world, and that the “hard takeoff” argument is wrong. Sarah Guo and Elad Gil sit down with Bob, an early key executive at Palantir who later led research at OpenAI. He is now CEO and co-founder of Arda, which is leveraging AI to make American manufacturing competitive. Bob explains why automating AI researchers is a one-time boost rather than a runaway loop, and why GPUs, compute, wet labs, and factories are the real bottlenecks. They cover Arda’s work with Anduril on everything from actuators to missiles to the Fury combat aircraft, why Arda is building “Cursor for manufacturing engineers”, and how the forward deployed engineering model really works.",
-      "why": "Bob McGrew, who ran research at OpenAI, argues the hard takeoff is wrong: automating AI researchers is a one-time boost, and the real bottlenecks are GPUs, wet labs and factories, so superintelligence has to wait on the physical world.",
-      "page": "https://podcasts.apple.com/us/podcast/superintelligence-needs-the-physical-world-with-ceo/id1668002688?i=1000802917059&uo=4",
-      "audio": "https://traffic.megaphone.fm/PDP6475704364.mp3"
+      "show": "Machine Gods",
+      "title": "Anthropic's Record IPO + What Kevin Got Wrong About the Company in 2023",
+      "date": "Fri, Nov 20, 2026",
+      "length": "53 min",
+      "about": "Anthropic is officially a publicly traded company worth more than a trillion dollars, but some of the people getting rich aren't celebrating. We unpack how employees and early investors are reacting and what the debut tells us about the AI bubble. Then we open up our reporter's notebooks from 2023, when Anthropic was just a 150-person lab with a cramped office, bragging about having \"hundreds\" of customers. We talk about how this strange company got to this moment and how to feel about the biggest IPO in history going to a company that warns its technology could lead to catastrophe. And finally, we open Pandora's Box: Jensen Huang wants his job back, Tesla will sell you a Cybercab (with strings attached), and the kids might actually be all right.",
+      "why": "Roose and Newton unpack Anthropic's first day as a public company worth over a trillion dollars and what the debut says about the AI bubble, then open their 2023 notebooks from when Anthropic was a 150-person lab warning its own technology could lead to catastrophe.",
+      "page": "https://podcasts.apple.com/us/podcast/anthropics-record-ipo-what-kevin-got-wrong-about-the/id6812430636?i=1000803115133&uo=4",
+      "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-g-s1-143588/npr.simplecastaudio.com/af4ad3f4-8915-48de-8722-fbf6b9409a6b/episodes/01f19052-356d-4347-bbf5-052e78e83481/audio/128/default.mp3?awCollectionId=af4ad3f4-8915-48de-8722-fbf6b9409a6b&awEpisodeId=01f19052-356d-4347-bbf5-052e78e83481&feed=QbdJo2GN&t=podcast&e=nx-s1-6047626&p=g-s1-143588&d=3162&size=50605288"
     },
     {
       "show": "The AI Daily Brief",
-      "title": "The 10 Biggest Days in AI History",
-      "date": "Thu, Nov 19, 2026",
+      "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+      "date": "Fri, Nov 20, 2026",
       "length": "27 min",
-      "about": "On the day of Anthropic’s IPO, NLW looks back at the 10 days that shaped generative AI. From OpenAI’s founding and the launch of ChatGPT to the DeepSeek selloff and Claude’s coding breakthrough, each changed what AI could do, who was ahead, or who got a say in what happened next.",
-      "why": "On Anthropic's IPO day, NLW ranks the 10 days that shaped generative AI — OpenAI's founding, ChatGPT's launch, the DeepSeek selloff, Claude's coding breakthrough — by what each changed about capability, who was ahead, and who got a say.",
-      "page": "https://podcasts.apple.com/us/podcast/the-10-biggest-days-in-ai-history/id1680633614?i=1000803003362&uo=4",
-      "audio": "https://anchor.fm/s/f7cac464/podcast/play/129774094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437176160-44100-2-e745ddb3c93a1.mp3"
+      "about": "Google's Gemini Neon edged out Fable on a coding benchmark, but its best pitch may be as a second opinion. NLW shares how Neon helped him find the story in an oil episode that Claude and ChatGPT kept turning into a Wikipedia entry, and what happened when he pushed back on its ideas. In the headlines: Anthropic closes its first day of trading up 17%, and Chinese AI labs warn that new U.S. chip restrictions could delay model releases.",
+      "why": "Gemini Neon edged out Fable on a coding benchmark, but NLW's case is to use it as a second opinion: it found the story in an oil episode that Claude and ChatGPT kept flattening into a Wikipedia entry, and held up when he pushed back on its ideas.",
+      "page": "https://podcasts.apple.com/us/podcast/why-you-should-try-gemini-neon-even-if-you-love-fable/id1680633614?i=1000803173521&uo=4",
+      "audio": "https://anchor.fm/s/f7cac464/podcast/play/129823342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F437242919-44100-2-60737e935d621.mp3"
     },
     {
-      "show": "The Neuron",
-      "title": "Pika Enact: Can You Direct AI Video While It Plays?",
-      "date": "Wed, Nov 18, 2026",
-      "length": "45 min",
-      "about": "What if making an AI video felt less like writing a prompt and more like directing a film set? Pika is experimenting with a new approach called Enact: interactive AI-generated scenes where a creator can drag an actor into position, speak to the performers, or rethink a camera move while the scene is taking shape. Instead of asking for another finished clip, the director participates in the process. Pika CEO and co-founder Demi Guo joins creative leaders Matan Cohen-Grumi and Lindsay Brillson to explain the idea behind Enact, why these tools feel different from conventional AI video generators, and what their team had to invent to make responsive generation work. We also get into the limitations: video quality versus speed, what an AI actor needs to remember from a director, camera control, access to Pika's H3 Flex model, and who owns creative work made with AI.",
-      "why": "Pika's Enact lets a director drag an actor into position, talk to the performers and rethink a camera move while an AI scene is still generating, instead of prompting for another finished clip; CEO Demi Guo explains what had to be invented to make it respond live.",
-      "page": "https://podcasts.apple.com/us/podcast/pika-enact-can-you-direct-ai-video-while-it-plays/id1821043405?i=1000802775914&uo=4",
-      "audio": "https://anchor.fm/s/f51d3fd0/podcast/play/129696787/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F437071333-44100-2-916b43d6970998.mp3"
+      "show": "The a16z Show",
+      "title": "Why the Agent Era Needs a New Operating System | DHH",
+      "date": "Fri, Nov 20, 2026",
+      "length": "53 min",
+      "about": "David Heinemeier Hansson thinks the agent era is reopening a window in computing that has been closed for decades: the chance to build a new operating system people actually want to use. DHH joins a16z General Partners Martin Casado and Anish Acharya to explain why he's building Omarchy, an agent-first Linux distribution designed around a computer that users can modify simply by asking. They discuss why the command lines, config files, and detailed error messages that once made Linux intimidating now make it unusually well suited to agents, and why DHH believes software development has become cheap enough to challenge decades-old platform lock-in. But if code is becoming abundant, what still matters? DHH argues that taste, craft, and the willingness to obsess over the final 2% become more important, not less.",
+      "why": "DHH argues agents reopen a window closed for decades: a new operating system people actually want. He's building Omarchy, an agent-first Linux distro you modify by asking, because the command lines and error messages that made Linux intimidating now suit agents better than GUIs.",
+      "page": "https://podcasts.apple.com/us/podcast/why-the-agent-era-needs-a-new-operating-system-dhh/id842818711?i=1000803152201&uo=4",
+      "audio": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/13bead27-85e5-4199-b0a3-a1bb43c05c4a/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=13bead27-85e5-4199-b0a3-a1bb43c05c4a&feed=JGE3yC0V"
     },
     {
-      "show": "Possible with Reid Hoffman",
-      "title": "AI guardrails, data center demands, and the fight for jobs | Reid Hoffman",
-      "date": "Wed, Nov 18, 2026",
-      "length": "22 min",
-      "about": "In a special live Reid Riffs from Masters of Scale Summit, Reid Hoffman and Aria Finger tackle rapid-fire questions in a new segment called “Pardon the Disruption.” Reid digs into steering the AI frontier rather than slowing it, negotiating data center deals that benefit towns, and earning public trust amid AI job disruption. Manas AI co-founder Ujjwal Singh joins to explain how AI shrinks early drug discovery from years to weeks.",
-      "why": "Discovery pick — Possible is Reid Hoffman's show about what new technology makes possible, not an AI show; in a live summit riff he takes rapid-fire questions on steering the frontier instead of slowing it, data-center deals that benefit towns, and earning trust amid job disruption, plus Manas AI on shrinking drug discovery from years to weeks.",
-      "page": "https://podcasts.apple.com/us/podcast/ai-guardrails-data-center-demands-and-the-fight-for/id1677184070?i=1000802656034&uo=4",
-      "audio": "https://pdrl.fm/8d0b55/pscrb.fm/rss/p/traffic.megaphone.fm/CONCENT1916956090.mp3"
+      "show": "Eye on AI",
+      "title": "Are You Planning 20,000 AI Agents? Capital One Has a Warning | Abhijit Bose",
+      "date": "Fri, Nov 20, 2026",
+      "length": "39 min",
+      "about": "Most enterprises are still trying to figure out how to get a handful of AI agents into production. Capital One is running tens of thousands. Abhijit Bose, Senior VP and leader of the company's AI/ML platform engineering organization, joins Craig Smith to explain how a decade-old bet on the cloud became the foundation for everything Capital One is doing in AI today, from proprietary GPU clusters built in a single quarter to a platform that took model deployment from months down to about a week. The conversation gets concrete: a 24/7 AI concierge now running across car dealership websites, a generative AI system serving all 20,000-plus of Capital One's call center agents, and the Macau framework, Capital One's answer to the governance problem that's keeping most regulated industries from putting agentic AI into production. Bose's closing argument: deploying five agents is manageable without a platform; deploying 20,000 is a different problem entirely.",
+      "why": "Capital One runs tens of thousands of agents while most companies are stuck on a handful; Bose explains the decade-old cloud bet behind it, the concierge running on dealership sites, and why deploying 20,000 agents is a different problem from deploying five.",
+      "page": "https://podcasts.apple.com/us/podcast/are-you-planning-20-000-ai-agents-capital-one-has-a/id1438378439?i=1000803155444&uo=4",
+      "audio": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-361-LA_V2.mp3?dest-id=727317"
     },
     {
-      "show": "AI Inside",
-      "title": "Nvidia Faces Its Future Without Jensen Huang",
+      "show": "80,000 Hours Podcast",
+      "title": "Julian Gewirtz on the AI risks that actually scare Beijing",
       "date": "Thu, Nov 19, 2026",
-      "length": "65 min",
-      "about": "This week Jason Howell and Jeff Jarvis examine Jensen Huang’s bid to return to Nvidia, the board’s refusal, and the questions facing the company after another enormous quarter. They discuss Anthropic’s approaching IPO, Alibaba’s closed Qwen4-Max release, California’s lawsuit over OpenAI’s escaped agents, and Google’s warning about automated cyberattacks. Also in this episode, Jason demonstrates his Even G2 smart glasses and explains why keeping his AI instructions on his own hard drive makes switching tools easier. The speed round covers GPT-6.2 Astra and Sol, Claude Whiteboards, Sheets and Data, Android XR glasses, and the Apple Watch’s conversation summaries.",
-      "why": "Discovery pick — AI Inside is a weekly AI news show from Jason Howell and Jeff Jarvis, new to this list; this week covers Alibaba's closed Qwen4-Max, California's lawsuit over OpenAI's escaped agents, Google's warning on automated cyberattacks, and Huang's failed bid to return, plus a hands-on with the Even G2 smart glasses.",
-      "page": "https://podcasts.apple.com/us/podcast/nvidia-faces-its-future-without-jensen-huang/id1726128797?i=1000802846670&uo=4",
-      "audio": "https://prefix.up.audio/s/www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/51/tracking.swap.fm/track/tcQd6Q6C0RUUlOHq1Ytj/pscrb.fm/rss/p/traffic.megaphone.fm/TPG3574872718.mp3"
+      "length": "107 min",
+      "about": "What would it take for Beijing to take AI risk seriously, and what could a US-China deal on AI realistically look like? Julian Gewirtz, historian and former senior director for China and Taiwan affairs at the National Security Council under President Biden, argues that any answer has to \"start with the reality of what China is and what the Chinese Communist Party cares about.\" The Party's top concern is regime security, so when Chinese discourse warns of \"extreme loss-of-control risks,\" it means losing political control as well as losing control of AI systems. In Julian's view, what is most likely to shift Beijing's approach to AI safety is China's \"own domestic sense of the risks.\" Next is seeing the US regulate AI at home: a \"costly signal\" that Washington takes the risks seriously. He says Anthropic's Claude Mythos has been the most significant event shaping Beijing's thinking on AI risk over the past year, sharpening its longstanding concern about American cyber capabilities.",
+      "why": "Discovery pick — 80,000 Hours is a long-form interview show about tackling the world's biggest problems, new to this list; former NSC China director Julian Gewirtz explains that when Beijing warns of loss-of-control AI risks it means losing political control too, and what could actually shift its approach to safety.",
+      "page": "https://podcasts.apple.com/us/podcast/julian-gewirtz-on-the-ai-risks-that-actually-scare-beijing/id1245002988?i=1000802970065&uo=4",
+      "audio": "https://media.transistor.fm/5f208e9c/cdf15610.mp3"
     }
   ]
 }
